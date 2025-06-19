@@ -586,8 +586,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.18399452804377564,
-                    "y": 0.6897590361445783,
+                    "x": 0.15389876880984954,
+                    "y": 0.6295180722891566,
                     "uniqueID": "39a0ba14-2dee-40c2-b395-0c5488342a13",
                     "ioValues": [
                         {
@@ -702,8 +702,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6723666210670315,
-                    "y": 0.5993975903614458,
+                    "x": 0.6764705882352942,
+                    "y": 0.569277108433735,
                     "uniqueID": "eef08b9c-d5aa-4fc3-b394-e04759e4a40a",
                     "ioValues": [
                         {
@@ -716,7 +716,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -45
+                            "ioValue": -6.75
                         },
                         {
                             "name": "zDist",
@@ -728,7 +728,7 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7339261285909713,
+                    "x": 0.7277701778385773,
                     "y": 0.35843373493975905,
                     "uniqueID": "677ec036-29a5-45da-bb5b-6d3223cd7bbd",
                     "ioValues": [
@@ -755,7 +755,7 @@
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.7564979480164159,
-                    "y": 0.17469879518072287,
+                    "y": 0.1897590361445783,
                     "uniqueID": "8a5655e3-fa7b-4420-98c2-48c913d325f6",
                     "ioValues": [
                         {
@@ -772,7 +772,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -28
+                            "ioValue": -37.5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
