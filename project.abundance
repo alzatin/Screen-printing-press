@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": "6b4eea3f-cba7-4214-a16e-1cab3d32b3e5",
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "ply thick",
+            "ioValue": 10
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -20,10 +25,19 @@
         {
             "atomType": "Molecule",
             "name": "platon",
-            "x": 0.16552667578659372,
-            "y": 0.286144578313253,
+            "x": 0.17510259917920656,
+            "y": 0.29819277108433734,
             "uniqueID": "336b3038-5179-4f08-8676-1c6fc05d25f7",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "ply thick",
+                    "ioValue": 10
+                },
+                {
+                    "name": "platon length",
+                    "ioValue": 10
+                }
+            ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
@@ -39,8 +53,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.35362517099863205,
-                    "y": 0.45481927710843373,
+                    "x": 0.5314637482900137,
+                    "y": 0.35843373493975905,
                     "uniqueID": "65bc7abe-2513-46de-af90-6cdde1945781",
                     "ioValues": [
                         {
@@ -57,8 +71,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.13679890560875513,
-                    "y": 0.4879518072289156,
+                    "x": 0.23597811217510262,
+                    "y": 0.3072289156626506,
                     "uniqueID": "3f5d630e-1269-4983-976e-04062a9e8a19",
                     "ioValues": [
                         {
@@ -71,17 +85,147 @@
                         }
                     ],
                     "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Input",
+                    "name": "ply thick",
+                    "x": 0.031349999999999996,
+                    "y": 0.6987951807228915,
+                    "uniqueID": "4b7be503-9a7d-4189-a322-985162f2386a",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.20109439124487005,
+                    "y": 0.7108433734939759,
+                    "uniqueID": "25c58796-a44b-4690-b061-03d65566b9ed",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 100
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.31874145006839943,
+                    "y": 0.75,
+                    "uniqueID": "72765d8f-519d-4c55-989e-a72605cf340f",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "25c58796-a44b-4690-b061-03d65566b9ed"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.37209302325581395,
+                    "y": 0.2921686746987952,
+                    "uniqueID": "9c34eb9c-8d46-4c6c-b498-238c9e491c02",
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": "3f5d630e-1269-4983-976e-04062a9e8a19"
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.4541723666210671,
+                    "y": 0.6656626506024096,
+                    "uniqueID": "b564edbb-b304-480a-8ba4-ec58c8130649",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Input",
+                    "name": "platon length",
+                    "x": 0.031349999999999996,
+                    "y": 0.5271084337349398,
+                    "uniqueID": "aff8cb1f-3398-4b42-b499-0d366cea5065",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": "3f5d630e-1269-4983-976e-04062a9e8a19",
+                    "ap2ID": "9c34eb9c-8d46-4c6c-b498-238c9e491c02"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "25c58796-a44b-4690-b061-03d65566b9ed",
+                    "ap2ID": "72765d8f-519d-4c55-989e-a72605cf340f"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": "aff8cb1f-3398-4b42-b499-0d366cea5065",
+                    "ap2ID": "3f5d630e-1269-4983-976e-04062a9e8a19"
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         },
         {
             "atomType": "Molecule",
             "name": "Clamp",
-            "x": 0.1326949384404925,
-            "y": 0.5240963855421688,
+            "x": 0.16142270861833105,
+            "y": 0.6445783132530121,
             "uniqueID": "c6844ece-4723-4c9e-8801-14928345e017",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -100,9 +244,27 @@
             "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Input",
+            "name": "ply thick",
+            "x": 0.031349999999999996,
+            "y": 0.4909638554216868,
+            "uniqueID": "fcd98d64-883b-4ae7-ad39-560fd66ab661",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "ply thick",
+            "ap2Primary": false,
+            "ap1ID": "fcd98d64-883b-4ae7-ad39-560fd66ab661",
+            "ap2ID": "336b3038-5179-4f08-8676-1c6fc05d25f7"
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
