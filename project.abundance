@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "platon",
-            "x": 0.1744186046511628,
-            "y": 0.27710843373493976,
+            "x": 0.35157318741450067,
+            "y": 0.30120481927710846,
             "uniqueID": "336b3038-5179-4f08-8676-1c6fc05d25f7",
             "ioValues": [
                 {
@@ -379,8 +379,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamp",
-            "x": 0.16142270861833105,
-            "y": 0.6445783132530121,
+            "x": 0.22366621067031464,
+            "y": 0.5993975903614458,
             "uniqueID": "c6844ece-4723-4c9e-8801-14928345e017",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -394,6 +394,24 @@
                     "uniqueID": "adea75a7-464f-436d-be24-4f2233db66dc",
                     "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2701778385772914,
+                    "y": 0.5030120481927711,
+                    "uniqueID": "429912dd-4bde-4da0-9a96-4ba7ffeed54c",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 250
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 90
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
                 }
             ],
             "allConnectors": [],
