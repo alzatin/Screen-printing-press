@@ -3053,8 +3053,8 @@
         {
             "atomType": "Molecule",
             "name": "Hinge Side",
-            "x": 0.322,
-            "y": 0.4939759036144578,
+            "x": 0.27099999999999996,
+            "y": 0.5180722891566265,
             "uniqueID": "96e4ffcb-20f8-4018-924e-5894c57dadd2",
             "ioValues": [
                 {
@@ -7990,8 +7990,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.748,
-            "y": 0.6325301204819277,
+            "x": 0.678,
+            "y": 0.6265060240963854,
             "uniqueID": "ae17287a-6f79-49fa-9cc8-0c13b0bf11bd",
             "ioValues": [
                 {
@@ -8005,6 +8005,10 @@
                 {
                     "name": "Shape 4",
                     "ioValue": "dd518a92-85f0-4b17-bce4-52d0faa304e0"
+                },
+                {
+                    "name": "Shape 5",
+                    "ioValue": "ed0f4caa-0542-468a-b645-5c859d6061f9"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -8038,8 +8042,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.521,
-            "y": 0.48192771084337344,
+            "x": 0.496,
+            "y": 0.4126506024096385,
             "uniqueID": "dd518a92-85f0-4b17-bce4-52d0faa304e0",
             "ioValues": [
                 {
@@ -8052,7 +8056,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 250
+                    "ioValue": 225
                 },
                 {
                     "name": "zDist",
@@ -8060,6 +8064,47 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.481,
+            "y": 0.5602409638554217,
+            "uniqueID": "ed0f4caa-0542-468a-b645-5c859d6061f9",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "96e4ffcb-20f8-4018-924e-5894c57dadd2"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 25
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 225
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Equation",
+            "name": "15 + y",
+            "x": 0.368,
+            "y": 0.3734939759036145,
+            "uniqueID": "dde7e15a-84d9-4982-ae38-48bce7eba596",
+            "ioValues": [
+                {
+                    "name": "y",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "15 + y"
         }
     ],
     "allConnectors": [
@@ -8106,11 +8151,25 @@
             "ap2ID": "dd518a92-85f0-4b17-bce4-52d0faa304e0"
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": "fcd98d64-883b-4ae7-ad39-560fd66ab661",
+            "ap2ID": "dde7e15a-84d9-4982-ae38-48bce7eba596"
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "96e4ffcb-20f8-4018-924e-5894c57dadd2",
             "ap2ID": "dd518a92-85f0-4b17-bce4-52d0faa304e0"
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "96e4ffcb-20f8-4018-924e-5894c57dadd2",
+            "ap2ID": "ed0f4caa-0542-468a-b645-5c859d6061f9"
         },
         {
             "ap1Name": "Geometry",
@@ -8146,6 +8205,20 @@
             "ap2Primary": false,
             "ap1ID": "dd518a92-85f0-4b17-bce4-52d0faa304e0",
             "ap2ID": "ae17287a-6f79-49fa-9cc8-0c13b0bf11bd"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 5",
+            "ap2Primary": false,
+            "ap1ID": "ed0f4caa-0542-468a-b645-5c859d6061f9",
+            "ap2ID": "ae17287a-6f79-49fa-9cc8-0c13b0bf11bd"
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": "dde7e15a-84d9-4982-ae38-48bce7eba596",
+            "ap2ID": "ed0f4caa-0542-468a-b645-5c859d6061f9"
         }
     ],
     "unitsKey": "MM",
