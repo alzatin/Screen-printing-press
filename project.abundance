@@ -384,8 +384,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamp",
-            "x": 0.2277701778385773,
-            "y": 0.286144578313253,
+            "x": 0.2647058823529412,
+            "y": 0.3253012048192771,
             "uniqueID": "c6844ece-4723-4c9e-8801-14928345e017",
             "ioValues": [
                 {
@@ -5061,8 +5061,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "base part",
-                    "x": 0.27428180574555405,
-                    "y": 0.41867469879518077,
+                    "x": 0.2448700410396717,
+                    "y": 0.42168674698795183,
                     "uniqueID": "ffbd29f2-da05-49de-ad5d-7a51baf62ca8",
                     "ioValues": [
                         {
@@ -6211,8 +6211,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.6997264021887825,
-                            "y": 0.39759036144578314,
+                            "x": 0.801641586867305,
+                            "y": 0.40361445783132527,
                             "uniqueID": "db908ee0-4e81-4b3b-8804-7c58c1f905b2",
                             "ioValues": [
                                 {
@@ -6809,8 +6809,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5957592339261286,
-                    "y": 0.2740963855421687,
+                    "x": 0.4993160054719562,
+                    "y": 0.28012048192771083,
                     "uniqueID": "2efa8722-6219-4f34-8b04-ce3fed758ef4",
                     "ioValues": [
                         {
@@ -6835,8 +6835,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5492476060191519,
-                    "y": 0.6897590361445783,
+                    "x": 0.506155950752394,
+                    "y": 0.6445783132530121,
                     "uniqueID": "b254c988-9f91-44fc-9a05-506cd64fa217",
                     "ioValues": [
                         {
@@ -6975,6 +6975,80 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.3700410396716826,
+            "y": 0.4126506024096385,
+            "uniqueID": "a8f6ae9e-9267-4543-bd68-406e95375658",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.46169630642954856,
+            "y": 0.3283132530120482,
+            "uniqueID": "53877d91-f95e-4961-b025-8d9f4ad2c998",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "a8f6ae9e-9267-4543-bd68-406e95375658"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.6183310533515732,
+            "y": 0.3102409638554217,
+            "uniqueID": "757a79db-b6f2-405a-a304-1e0f20993126",
+            "ioValues": [
+                {
+                    "name": "ply thick",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "2db09789-b232-4a43-bdd5-0d43a01e3aff",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "ply thick",
+                    "x": 0.0231,
+                    "y": 0.4909638554216868,
+                    "uniqueID": "008d600c-0fe0-4d10-9d17-b989a782c776",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -7000,6 +7074,13 @@
             "ap2ID": "96e4ffcb-20f8-4018-924e-5894c57dadd2"
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "pry thick 1",
+            "ap2Primary": false,
+            "ap1ID": "fcd98d64-883b-4ae7-ad39-560fd66ab661",
+            "ap2ID": "c6844ece-4723-4c9e-8801-14928345e017"
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "Shape 1",
             "ap2Primary": false,
@@ -7012,6 +7093,13 @@
             "ap2Primary": false,
             "ap1ID": "ae17287a-6f79-49fa-9cc8-0c13b0bf11bd",
             "ap2ID": "1cfd8f61-c943-40d7-be17-bbd45de7ab12"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "a8f6ae9e-9267-4543-bd68-406e95375658",
+            "ap2ID": "53877d91-f95e-4961-b025-8d9f4ad2c998"
         }
     ],
     "unitsKey": "MM",
