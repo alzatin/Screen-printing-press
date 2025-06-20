@@ -3979,8 +3979,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.4904240766073872,
-                    "y": 0.29518072289156627,
+                    "x": 0.508891928864569,
+                    "y": 0.2620481927710844,
                     "uniqueID": "fb5225cb-c26b-493c-a494-01713dd688fc",
                     "ioValues": [
                         {
@@ -3997,8 +3997,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3337893296853625,
-                    "y": 0.4879518072289156,
+                    "x": 0.33584131326949385,
+                    "y": 0.4608433734939759,
                     "uniqueID": "19627f59-cc12-4e67-a907-e8fab01383ac",
                     "ioValues": [
                         {
@@ -4019,6 +4019,44 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "mid holes",
+                    "x": 0.2729138166894665,
+                    "y": 0.572289156626506,
+                    "uniqueID": "db383e17-06f7-48a9-9995-0a857096facb",
+                    "ioValues": [
+                        {
+                            "name": "ply thick",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "5b3258e2-b896-475d-89b0-2142407cfb56",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "ply thick",
+                            "x": 0.0231,
+                            "y": 0.4909638554216868,
+                            "uniqueID": "8bd65223-41b6-490a-856e-e2c6a8ca16db",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -4035,6 +4073,13 @@
                     "ap2Primary": false,
                     "ap1ID": "69b8095d-8e75-4050-862c-a781a6e5b53b",
                     "ap2ID": "0dd667f2-7529-498e-9759-0a96c44634bd"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "ply thick",
+                    "ap2Primary": false,
+                    "ap1ID": "69b8095d-8e75-4050-862c-a781a6e5b53b",
+                    "ap2ID": "db383e17-06f7-48a9-9995-0a857096facb"
                 },
                 {
                     "ap1Name": "Geometry",
