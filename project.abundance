@@ -5649,8 +5649,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "base part",
-                    "x": 0.2448700410396717,
-                    "y": 0.42168674698795183,
+                    "x": 0.236,
+                    "y": 0.42771084337349397,
                     "uniqueID": "ffbd29f2-da05-49de-ad5d-7a51baf62ca8",
                     "ioValues": [
                         {
@@ -6250,17 +6250,17 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Bolt-Placeholder",
-                            "x": 0.38714090287277697,
-                            "y": 0.7951807228915663,
+                            "x": 0.315,
+                            "y": 0.8072289156626505,
                             "uniqueID": "b1564bb8-baed-41a3-a03d-af1676e0c2a3",
                             "ioValues": [
                                 {
                                     "name": "bolt diameter",
-                                    "ioValue": 6.4
+                                    "ioValue": 4.4
                                 },
                                 {
                                     "name": "length",
-                                    "ioValue": 6
+                                    "ioValue": 11
                                 },
                                 {
                                     "name": "tolerance",
@@ -6268,11 +6268,11 @@
                                 },
                                 {
                                     "name": "Bolt head width",
-                                    "ioValue": 11
+                                    "ioValue": 7
                                 },
                                 {
                                     "name": "bolt head height",
-                                    "ioValue": 6.4
+                                    "ioValue": 3
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6331,7 +6331,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 6.4
+                                            "ioValue": 4.4
                                         }
                                     ],
                                     "description": "Creates a new circle."
@@ -6345,7 +6345,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 11
+                                            "ioValue": 7
                                         }
                                     ],
                                     "description": "Creates a new circle."
@@ -6363,7 +6363,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 6
+                                            "ioValue": 11
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -6381,7 +6381,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 6.4
+                                            "ioValue": 3
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -6414,7 +6414,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 6.5
+                                            "ioValue": 4.5
                                         }
                                     ],
                                     "description": "Creates a new circle."
@@ -6428,7 +6428,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x",
-                                            "ioValue": 6.4
+                                            "ioValue": 4.4
                                         },
                                         {
                                             "name": "y",
@@ -6451,7 +6451,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 6
+                                            "ioValue": 11
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -6510,7 +6510,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -6.4
+                                            "ioValue": -3
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -6524,7 +6524,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x",
-                                            "ioValue": 6.4
+                                            "ioValue": 3
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -6829,8 +6829,8 @@
                         {
                             "atomType": "Equation",
                             "name": "x /2",
-                            "x": 0.3344733242134063,
-                            "y": 0.4608433734939759,
+                            "x": 0.299,
+                            "y": 0.5180722891566265,
                             "uniqueID": "7875d80a-b6bf-4596-87cd-fcbd139c4d4e",
                             "ioValues": [
                                 {
@@ -7178,17 +7178,17 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.582079343365253,
-                            "y": 0.680722891566265,
+                            "x": 0.592,
+                            "y": 0.6686746987951807,
                             "uniqueID": "fc211727-7b63-44c5-b18e-fbc79d0e1583",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "b1564bb8-baed-41a3-a03d-af1676e0c2a3"
+                                    "ioValue": "8a47f944-45b9-4ea1-94bb-df23841dfbd7"
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 20
+                                    "ioValue": 10
                                 },
                                 {
                                     "name": "yDist",
@@ -7210,11 +7210,11 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "b1564bb8-baed-41a3-a03d-af1676e0c2a3"
+                                    "ioValue": "8a47f944-45b9-4ea1-94bb-df23841dfbd7"
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -20
+                                    "ioValue": -10
                                 },
                                 {
                                     "name": "yDist",
@@ -7226,6 +7226,32 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.41900000000000004,
+                            "y": 0.9006024096385543,
+                            "uniqueID": "8a47f944-45b9-4ea1-94bb-df23841dfbd7",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "b1564bb8-baed-41a3-a03d-af1676e0c2a3"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 180
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                         }
                     ],
                     "allConnectors": [
@@ -7262,14 +7288,7 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "b1564bb8-baed-41a3-a03d-af1676e0c2a3",
-                            "ap2ID": "fc211727-7b63-44c5-b18e-fbc79d0e1583"
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": "b1564bb8-baed-41a3-a03d-af1676e0c2a3",
-                            "ap2ID": "2c9b34d6-0f15-425f-9227-9f7a2c952cb3"
+                            "ap2ID": "8a47f944-45b9-4ea1-94bb-df23841dfbd7"
                         },
                         {
                             "ap1Name": "geometry",
@@ -7389,6 +7408,20 @@
                             "ap2Primary": false,
                             "ap1ID": "2c9b34d6-0f15-425f-9227-9f7a2c952cb3",
                             "ap2ID": "db908ee0-4e81-4b3b-8804-7c58c1f905b2"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "8a47f944-45b9-4ea1-94bb-df23841dfbd7",
+                            "ap2ID": "2c9b34d6-0f15-425f-9227-9f7a2c952cb3"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "8a47f944-45b9-4ea1-94bb-df23841dfbd7",
+                            "ap2ID": "fc211727-7b63-44c5-b18e-fbc79d0e1583"
                         }
                     ],
                     "fileTypeVersion": 1,
