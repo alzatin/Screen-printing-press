@@ -2464,9 +2464,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Hinge",
-            "x": 0.23255813953488372,
-            "y": 0.4849397590361446,
+            "name": "Hinge Side",
+            "x": 0.23119015047879618,
+            "y": 0.5,
             "uniqueID": "96e4ffcb-20f8-4018-924e-5894c57dadd2",
             "ioValues": [
                 {
@@ -2486,7 +2486,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "fb5225cb-c26b-493c-a494-01713dd688fc"
+                            "ioValue": "2025171d-167d-4fa4-8b2a-7f34f32afc71"
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -4827,6 +4827,73 @@
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x/2"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.7735978112175103,
+                    "y": 0.47289156626506024,
+                    "uniqueID": "2f3c3695-a8ba-4aff-83f3-a923b303db55",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "fb5225cb-c26b-493c-a494-01713dd688fc"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.8440492476060191,
+                    "y": 0.7801204819277108,
+                    "uniqueID": "2025171d-167d-4fa4-8b2a-7f34f32afc71",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "2f3c3695-a8ba-4aff-83f3-a923b303db55"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": -5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "-x/2",
+                    "x": 0.7099863201094392,
+                    "y": 0.8192771084337349,
+                    "uniqueID": "3db11843-2040-4abd-80f5-a7e46db0f958",
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "-x/2"
                 }
             ],
             "allConnectors": [
@@ -4859,6 +4926,13 @@
                     "ap2ID": "b66a6583-cf59-4e5f-ac9c-f253b7ad2f95"
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": "69b8095d-8e75-4050-862c-a781a6e5b53b",
+                    "ap2ID": "3db11843-2040-4abd-80f5-a7e46db0f958"
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "Shape 1",
                     "ap2Primary": false,
@@ -4874,10 +4948,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": "fb5225cb-c26b-493c-a494-01713dd688fc",
-                    "ap2ID": "9f4dcf3c-b8c9-4e77-ae0d-63799a87eff3"
+                    "ap2ID": "2f3c3695-a8ba-4aff-83f3-a923b303db55"
                 },
                 {
                     "ap1Name": "geometry",
@@ -4920,10 +4994,31 @@
                     "ap2Primary": false,
                     "ap1ID": "b66a6583-cf59-4e5f-ac9c-f253b7ad2f95",
                     "ap2ID": "670ddfb5-d128-4902-8569-0eb2f546001f"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "2f3c3695-a8ba-4aff-83f3-a923b303db55",
+                    "ap2ID": "2025171d-167d-4fa4-8b2a-7f34f32afc71"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "2025171d-167d-4fa4-8b2a-7f34f32afc71",
+                    "ap2ID": "9f4dcf3c-b8c9-4e77-ae0d-63799a87eff3"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": "3db11843-2040-4abd-80f5-a7e46db0f958",
+                    "ap2ID": "2025171d-167d-4fa4-8b2a-7f34f32afc71"
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Molecule",
