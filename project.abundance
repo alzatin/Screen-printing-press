@@ -5611,8 +5611,8 @@
         {
             "atomType": "Molecule",
             "name": "Base",
-            "x": 0.22799999999999998,
-            "y": 0.6686746987951807,
+            "x": 0.23199999999999998,
+            "y": 0.6746987951807228,
             "uniqueID": "ba41ab37-6d1c-4e6b-a9b4-27c9a2c1b803",
             "ioValues": [
                 {
@@ -7570,8 +7570,8 @@
         {
             "atomType": "Molecule",
             "name": "Low Rail",
-            "x": 0.24076607387140903,
-            "y": 0.8765060240963856,
+            "x": 0.24200000000000002,
+            "y": 0.8734939759036144,
             "uniqueID": "def13c91-6169-4908-b703-ef9f81c7544c",
             "ioValues": [
                 {
@@ -7920,7 +7920,7 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Molecule",
@@ -7985,7 +7985,7 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Assembly",
@@ -8016,8 +8016,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.48400000000000004,
-            "y": 0.9126506024096386,
+            "x": 0.48800000000000004,
+            "y": 0.7921686746987953,
             "uniqueID": "c5b06806-7059-442a-9c0e-3dd56e753c6c",
             "ioValues": [
                 {
@@ -8030,7 +8030,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 20
                 },
                 {
                     "name": "zDist",
@@ -8042,8 +8042,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.496,
-            "y": 0.4126506024096385,
+            "x": 0.5820000000000001,
+            "y": 0.39759036144578314,
             "uniqueID": "dd518a92-85f0-4b17-bce4-52d0faa304e0",
             "ioValues": [
                 {
@@ -8052,7 +8052,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": 20
                 },
                 {
                     "name": "yDist",
@@ -8068,8 +8068,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.481,
-            "y": 0.5602409638554217,
+            "x": 0.49,
+            "y": 0.5542168674698795,
             "uniqueID": "ed0f4caa-0542-468a-b645-5c859d6061f9",
             "ioValues": [
                 {
@@ -8078,7 +8078,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 25
+                    "ioValue": -20
                 },
                 {
                     "name": "yDist",
@@ -8093,10 +8093,10 @@
         },
         {
             "atomType": "Equation",
-            "name": "15 + y",
-            "x": 0.368,
-            "y": 0.3734939759036145,
-            "uniqueID": "dde7e15a-84d9-4982-ae38-48bce7eba596",
+            "name": "y/2 + 15",
+            "x": 0.442,
+            "y": 0.20783132530120482,
+            "uniqueID": "33a389fb-58b7-417d-8f80-f1f66f8f7dce",
             "ioValues": [
                 {
                     "name": "y",
@@ -8104,7 +8104,22 @@
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "15 + y"
+            "currentEquation": "y/2 + 15"
+        },
+        {
+            "atomType": "Equation",
+            "name": "-y/2 - 15",
+            "x": 0.41300000000000003,
+            "y": 0.34939759036144574,
+            "uniqueID": "806a0a8b-df02-4c6f-af97-b026b1894158",
+            "ioValues": [
+                {
+                    "name": "y",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "-y/2 - 15"
         }
     ],
     "allConnectors": [
@@ -8155,7 +8170,14 @@
             "ap2Name": "y",
             "ap2Primary": false,
             "ap1ID": "fcd98d64-883b-4ae7-ad39-560fd66ab661",
-            "ap2ID": "dde7e15a-84d9-4982-ae38-48bce7eba596"
+            "ap2ID": "33a389fb-58b7-417d-8f80-f1f66f8f7dce"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": "fcd98d64-883b-4ae7-ad39-560fd66ab661",
+            "ap2ID": "806a0a8b-df02-4c6f-af97-b026b1894158"
         },
         {
             "ap1Name": "Geometry",
@@ -8217,7 +8239,14 @@
             "ap1Name": "result",
             "ap2Name": "xDist",
             "ap2Primary": false,
-            "ap1ID": "dde7e15a-84d9-4982-ae38-48bce7eba596",
+            "ap1ID": "33a389fb-58b7-417d-8f80-f1f66f8f7dce",
+            "ap2ID": "dd518a92-85f0-4b17-bce4-52d0faa304e0"
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": "806a0a8b-df02-4c6f-af97-b026b1894158",
             "ap2ID": "ed0f4caa-0542-468a-b645-5c859d6061f9"
         }
     ],
