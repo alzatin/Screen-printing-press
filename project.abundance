@@ -7544,9 +7544,132 @@
                     "uniqueID": "a8d8fb7f-eafe-466c-b853-d44230814656",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Low Rail ",
+                    "x": 0.226,
+                    "y": 0.34939759036144574,
+                    "uniqueID": "91bbd0de-47b6-42f3-8709-2801b5cc40d5",
+                    "ioValues": [
+                        {
+                            "name": "ply thick",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "rail width",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "5f38bb49-3677-4074-bc87-963351240d2b",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "ply thick",
+                            "x": 0.0231,
+                            "y": 0.7259036144578314,
+                            "uniqueID": "fc0ea8f0-17f1-4dd8-956f-7fcd480cb1bf",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.3,
+                            "y": 0.572289156626506,
+                            "uniqueID": "11f5070f-a449-41ca-9b2f-ba34e5640c8e",
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "rail width",
+                            "x": 0.0231,
+                            "y": 0.48192771084337344,
+                            "uniqueID": "c676bac8-6a60-4b9c-bae8-9c4a8ab2401d",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "top rail",
+                    "x": 0.224,
+                    "y": 0.6506024096385542,
+                    "uniqueID": "e73bb4aa-1afd-44ec-848f-72cb245f36d8",
+                    "ioValues": [
+                        {
+                            "name": "ply thick",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "21478368-ced2-43ab-b45d-ca67a4b6fb3d",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "ply thick",
+                            "x": 0.0231,
+                            "y": 0.4909638554216868,
+                            "uniqueID": "2d84b025-31c9-410f-a657-dd8ad4abe004",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "ply thick",
+                    "ap2Primary": false,
+                    "ap1ID": "a8d8fb7f-eafe-466c-b853-d44230814656",
+                    "ap2ID": "91bbd0de-47b6-42f3-8709-2801b5cc40d5"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "ply thick",
+                    "ap2Primary": false,
+                    "ap1ID": "a8d8fb7f-eafe-466c-b853-d44230814656",
+                    "ap2ID": "e73bb4aa-1afd-44ec-848f-72cb245f36d8"
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         },
