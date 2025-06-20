@@ -2498,8 +2498,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Side Piece",
-                    "x": 0.18946648426812585,
-                    "y": 0.3313253012048193,
+                    "x": 0.2503419972640219,
+                    "y": 0.2560240963855422,
                     "uniqueID": "4c25b5a2-7380-4e23-989c-559e747e2742",
                     "ioValues": [
                         {
@@ -3463,13 +3463,13 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Bottom holes",
-                    "x": 0.23119015047879618,
-                    "y": 0.4789156626506024,
+                    "x": 0.173734610123119,
+                    "y": 0.4427710843373494,
                     "uniqueID": "0dd667f2-7529-498e-9759-0a96c44634bd",
                     "ioValues": [
                         {
@@ -3506,8 +3506,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Hole",
-                            "x": 0.24008207934336526,
-                            "y": 0.4126506024096385,
+                            "x": 0.23803009575923392,
+                            "y": 0.42168674698795183,
                             "uniqueID": "27b777e4-2d5c-4ab6-856c-076c71f3155e",
                             "ioValues": [
                                 {
@@ -3520,11 +3520,11 @@
                                 },
                                 {
                                     "name": "x",
-                                    "ioValue": 0
+                                    "ioValue": -15
                                 },
                                 {
                                     "name": "y",
-                                    "ioValue": 15
+                                    "ioValue": 0
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3629,11 +3629,11 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 0
+                                            "ioValue": -15
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 15
+                                            "ioValue": 0
                                         },
                                         {
                                             "name": "zDist",
@@ -3979,8 +3979,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.38166894664842677,
-                    "y": 0.3192771084337349,
+                    "x": 0.4945280437756498,
+                    "y": 0.3132530120481927,
                     "uniqueID": "fb5225cb-c26b-493c-a494-01713dd688fc",
                     "ioValues": [
                         {
@@ -3988,11 +3988,37 @@
                             "ioValue": "4c25b5a2-7380-4e23-989c-559e747e2742"
                         },
                         {
-                            "name": "Shape 2",
-                            "ioValue": "0dd667f2-7529-498e-9759-0a96c44634bd"
+                            "name": "Shape 3",
+                            "ioValue": "19627f59-cc12-4e67-a907-e8fab01383ac"
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3337893296853625,
+                    "y": 0.4879518072289156,
+                    "uniqueID": "19627f59-cc12-4e67-a907-e8fab01383ac",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "0dd667f2-7529-498e-9759-0a96c44634bd"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 40
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -4019,9 +4045,16 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": "0dd667f2-7529-498e-9759-0a96c44634bd",
+                    "ap2ID": "19627f59-cc12-4e67-a907-e8fab01383ac"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": "19627f59-cc12-4e67-a907-e8fab01383ac",
                     "ap2ID": "fb5225cb-c26b-493c-a494-01713dd688fc"
                 }
             ],
