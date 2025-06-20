@@ -3091,8 +3091,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Side Piece",
-                    "x": 0.254,
-                    "y": 0.17771084337349397,
+                    "x": 0.252,
+                    "y": 0.18373493975903615,
                     "uniqueID": "4c25b5a2-7380-4e23-989c-559e747e2742",
                     "ioValues": [
                         {
@@ -5429,7 +5429,7 @@
                         },
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 180
+                            "ioValue": 0
                         },
                         {
                             "name": "y-axis degrees",
@@ -5455,7 +5455,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 5
+                            "ioValue": -5
                         },
                         {
                             "name": "yDist",
@@ -5470,7 +5470,7 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "x/2",
+                    "name": "-x/2",
                     "x": 0.6910000000000001,
                     "y": 0.7018072289156627,
                     "uniqueID": "3db11843-2040-4abd-80f5-a7e46db0f958",
@@ -5481,7 +5481,7 @@
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "x/2"
+                    "currentEquation": "-x/2"
                 }
             ],
             "allConnectors": [
