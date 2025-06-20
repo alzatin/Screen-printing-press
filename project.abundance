@@ -3053,8 +3053,8 @@
         {
             "atomType": "Molecule",
             "name": "Hinge Side",
-            "x": 0.23119015047879618,
-            "y": 0.5,
+            "x": 0.322,
+            "y": 0.4939759036144578,
             "uniqueID": "96e4ffcb-20f8-4018-924e-5894c57dadd2",
             "ioValues": [
                 {
@@ -3091,7 +3091,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Side Piece",
-                    "x": 0.25102599179206564,
+                    "x": 0.254,
                     "y": 0.17771084337349397,
                     "uniqueID": "4c25b5a2-7380-4e23-989c-559e747e2742",
                     "ioValues": [
@@ -5429,7 +5429,7 @@
                         },
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 180
                         },
                         {
                             "name": "y-axis degrees",
@@ -5445,8 +5445,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.8440492476060191,
-                    "y": 0.7801204819277108,
+                    "x": 0.8430000000000001,
+                    "y": 0.8042168674698795,
                     "uniqueID": "2025171d-167d-4fa4-8b2a-7f34f32afc71",
                     "ioValues": [
                         {
@@ -5455,7 +5455,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -5
+                            "ioValue": 5
                         },
                         {
                             "name": "yDist",
@@ -5463,16 +5463,16 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 40
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
-                    "name": "-x/2",
-                    "x": 0.7099863201094392,
-                    "y": 0.8192771084337349,
+                    "name": "x/2",
+                    "x": 0.6910000000000001,
+                    "y": 0.7018072289156627,
                     "uniqueID": "3db11843-2040-4abd-80f5-a7e46db0f958",
                     "ioValues": [
                         {
@@ -5481,7 +5481,7 @@
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "-x/2"
+                    "currentEquation": "x/2"
                 }
             ],
             "allConnectors": [
@@ -5649,8 +5649,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "base part",
-                    "x": 0.236,
-                    "y": 0.42771084337349397,
+                    "x": 0.24,
+                    "y": 0.4066265060240964,
                     "uniqueID": "ffbd29f2-da05-49de-ad5d-7a51baf62ca8",
                     "ioValues": [
                         {
@@ -6250,8 +6250,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Bolt-Placeholder",
-                            "x": 0.315,
-                            "y": 0.8072289156626505,
+                            "x": 0.318,
+                            "y": 0.8132530120481928,
                             "uniqueID": "b1564bb8-baed-41a3-a03d-af1676e0c2a3",
                             "ioValues": [
                                 {
@@ -7178,8 +7178,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.592,
-                            "y": 0.6686746987951807,
+                            "x": 0.7190000000000001,
+                            "y": 0.575301204819277,
                             "uniqueID": "fc211727-7b63-44c5-b18e-fbc79d0e1583",
                             "ioValues": [
                                 {
@@ -7188,7 +7188,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 10
+                                    "ioValue": 7.5
                                 },
                                 {
                                     "name": "yDist",
@@ -7196,7 +7196,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -7204,8 +7204,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5779753761969904,
-                            "y": 0.8373493975903615,
+                            "x": 0.743,
+                            "y": 0.8343373493975904,
                             "uniqueID": "2c9b34d6-0f15-425f-9227-9f7a2c952cb3",
                             "ioValues": [
                                 {
@@ -7214,7 +7214,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -10
+                                    "ioValue": -7.5
                                 },
                                 {
                                     "name": "yDist",
@@ -7222,7 +7222,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 2
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -7252,6 +7252,21 @@
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "x /2 - 3",
+                            "x": 0.572,
+                            "y": 0.7620481927710844,
+                            "uniqueID": "47e1873f-0996-4e24-8047-c96cb483f751",
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "x /2 - 3"
                         }
                     ],
                     "allConnectors": [
@@ -7275,6 +7290,13 @@
                             "ap2Primary": false,
                             "ap1ID": "25145f9b-a8c8-46f7-afec-3cd0e76f4e4f",
                             "ap2ID": "98d23e13-15fe-4e0a-ac4f-ec1a3cd6c254"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x",
+                            "ap2Primary": false,
+                            "ap1ID": "25145f9b-a8c8-46f7-afec-3cd0e76f4e4f",
+                            "ap2ID": "47e1873f-0996-4e24-8047-c96cb483f751"
                         },
                         {
                             "ap1Name": "Geometry",
@@ -7324,20 +7346,6 @@
                             "ap2Primary": false,
                             "ap1ID": "7875d80a-b6bf-4596-87cd-fcbd139c4d4e",
                             "ap2ID": "779a15cd-a7e9-4d61-b349-7b415bb1d49c"
-                        },
-                        {
-                            "ap1Name": "result",
-                            "ap2Name": "zDist",
-                            "ap2Primary": false,
-                            "ap1ID": "7875d80a-b6bf-4596-87cd-fcbd139c4d4e",
-                            "ap2ID": "fc211727-7b63-44c5-b18e-fbc79d0e1583"
-                        },
-                        {
-                            "ap1Name": "result",
-                            "ap2Name": "zDist",
-                            "ap2Primary": false,
-                            "ap1ID": "7875d80a-b6bf-4596-87cd-fcbd139c4d4e",
-                            "ap2ID": "2c9b34d6-0f15-425f-9227-9f7a2c952cb3"
                         },
                         {
                             "ap1Name": "number or geometry",
@@ -7422,6 +7430,20 @@
                             "ap2Primary": true,
                             "ap1ID": "8a47f944-45b9-4ea1-94bb-df23841dfbd7",
                             "ap2ID": "fc211727-7b63-44c5-b18e-fbc79d0e1583"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "zDist",
+                            "ap2Primary": false,
+                            "ap1ID": "47e1873f-0996-4e24-8047-c96cb483f751",
+                            "ap2ID": "fc211727-7b63-44c5-b18e-fbc79d0e1583"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "zDist",
+                            "ap2Primary": false,
+                            "ap1ID": "47e1873f-0996-4e24-8047-c96cb483f751",
+                            "ap2ID": "2c9b34d6-0f15-425f-9227-9f7a2c952cb3"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -7968,8 +7990,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6429548563611491,
-            "y": 0.5451807228915663,
+            "x": 0.748,
+            "y": 0.6325301204819277,
             "uniqueID": "ae17287a-6f79-49fa-9cc8-0c13b0bf11bd",
             "ioValues": [
                 {
@@ -7979,6 +8001,10 @@
                 {
                     "name": "Shape 3",
                     "ioValue": "c5b06806-7059-442a-9c0e-3dd56e753c6c"
+                },
+                {
+                    "name": "Shape 4",
+                    "ioValue": "dd518a92-85f0-4b17-bce4-52d0faa304e0"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -7986,8 +8012,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.44999999999999996,
-            "y": 0.8403614457831325,
+            "x": 0.48400000000000004,
+            "y": 0.9126506024096386,
             "uniqueID": "c5b06806-7059-442a-9c0e-3dd56e753c6c",
             "ioValues": [
                 {
@@ -8001,6 +8027,32 @@
                 {
                     "name": "yDist",
                     "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.521,
+            "y": 0.48192771084337344,
+            "uniqueID": "dd518a92-85f0-4b17-bce4-52d0faa304e0",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "96e4ffcb-20f8-4018-924e-5894c57dadd2"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 250
                 },
                 {
                     "name": "zDist",
@@ -8047,6 +8099,20 @@
             "ap2ID": "c5b06806-7059-442a-9c0e-3dd56e753c6c"
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "zDist",
+            "ap2Primary": false,
+            "ap1ID": "fcd98d64-883b-4ae7-ad39-560fd66ab661",
+            "ap2ID": "dd518a92-85f0-4b17-bce4-52d0faa304e0"
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "96e4ffcb-20f8-4018-924e-5894c57dadd2",
+            "ap2ID": "dd518a92-85f0-4b17-bce4-52d0faa304e0"
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "Shape 1",
             "ap2Primary": false,
@@ -8072,6 +8138,13 @@
             "ap2Name": "Shape 3",
             "ap2Primary": false,
             "ap1ID": "c5b06806-7059-442a-9c0e-3dd56e753c6c",
+            "ap2ID": "ae17287a-6f79-49fa-9cc8-0c13b0bf11bd"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 4",
+            "ap2Primary": false,
+            "ap1ID": "dd518a92-85f0-4b17-bce4-52d0faa304e0",
             "ap2ID": "ae17287a-6f79-49fa-9cc8-0c13b0bf11bd"
         }
     ],
