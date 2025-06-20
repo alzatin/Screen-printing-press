@@ -9489,8 +9489,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.37999999999999995,
-            "y": 0.9036144578313253,
+            "x": 0.386,
+            "y": 0.8885542168674698,
             "uniqueID": "d71e520e-94bd-4725-86f1-3d0065e404e9",
             "ioValues": [
                 {
@@ -9499,11 +9499,11 @@
                 },
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 180
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 180
                 },
                 {
                     "name": "z-axis degrees",
@@ -9515,13 +9515,13 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.526,
-            "y": 0.9186746987951807,
+            "x": 0.637,
+            "y": 0.8825301204819277,
             "uniqueID": "bc8f3838-6c17-492e-a0b8-d7581873288a",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "d71e520e-94bd-4725-86f1-3d0065e404e9"
+                    "ioValue": "7dede09d-290c-47ef-b3a3-f7852018c619"
                 },
                 {
                     "name": "xDist",
@@ -9529,11 +9529,11 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 150
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 210
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -9555,6 +9555,32 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.505,
+            "y": 0.8945783132530121,
+            "uniqueID": "7dede09d-290c-47ef-b3a3-f7852018c619",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "d71e520e-94bd-4725-86f1-3d0065e404e9"
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": -45
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         }
     ],
     "allConnectors": [
@@ -9759,7 +9785,7 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "d71e520e-94bd-4725-86f1-3d0065e404e9",
-            "ap2ID": "bc8f3838-6c17-492e-a0b8-d7581873288a"
+            "ap2ID": "7dede09d-290c-47ef-b3a3-f7852018c619"
         },
         {
             "ap1Name": "geometry",
@@ -9774,6 +9800,13 @@
             "ap2Primary": false,
             "ap1ID": "d08b3bd2-e660-4c84-b375-858c70751fd5",
             "ap2ID": "1cfd8f61-c943-40d7-be17-bbd45de7ab12"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "7dede09d-290c-47ef-b3a3-f7852018c619",
+            "ap2ID": "bc8f3838-6c17-492e-a0b8-d7581873288a"
         }
     ],
     "unitsKey": "MM",
