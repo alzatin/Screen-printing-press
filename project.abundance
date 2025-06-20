@@ -3132,8 +3132,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Bolt-Placeholder",
-                            "x": 0.37277701778385774,
-                            "y": 0.8524096385542169,
+                            "x": 0.38714090287277697,
+                            "y": 0.7951807228915663,
                             "uniqueID": "b1564bb8-baed-41a3-a03d-af1676e0c2a3",
                             "ioValues": [
                                 {
@@ -3142,7 +3142,7 @@
                                 },
                                 {
                                     "name": "length",
-                                    "ioValue": 11.6
+                                    "ioValue": 6
                                 },
                                 {
                                     "name": "tolerance",
@@ -3245,7 +3245,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 11.6
+                                            "ioValue": 6
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3333,7 +3333,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 11.6
+                                            "ioValue": 6
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3681,8 +3681,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.7058823529411764,
-                            "y": 0.3674698795180723,
+                            "x": 0.6997264021887825,
+                            "y": 0.39759036144578314,
                             "uniqueID": "db908ee0-4e81-4b3b-8804-7c58c1f905b2",
                             "ioValues": [
                                 {
