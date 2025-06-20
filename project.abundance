@@ -7589,17 +7589,17 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.3,
-                            "y": 0.572289156626506,
+                            "x": 0.182,
+                            "y": 0.35240963855421686,
                             "uniqueID": "11f5070f-a449-41ca-9b2f-ba34e5640c8e",
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 30
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 600
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -7623,9 +7623,78 @@
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.381,
+                            "y": 0.3614457831325301,
+                            "uniqueID": "d1a39e22-2286-49dd-b451-a8f962cacd5e",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "11f5070f-a449-41ca-9b2f-ba34e5640c8e"
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.233,
+                            "y": 0.608433734939759,
+                            "uniqueID": "ad782fe4-8205-4bc1-9cb9-6262158f93c2",
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 20
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 600
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.377,
+                            "y": 0.5240963855421688,
+                            "uniqueID": "5421ce99-2859-4513-bf5f-2985b92ace3d",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "11f5070f-a449-41ca-9b2f-ba34e5640c8e"
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "height",
+                            "ap2Primary": false,
+                            "ap1ID": "fc0ea8f0-17f1-4dd8-956f-7fcd480cb1bf",
+                            "ap2ID": "d1a39e22-2286-49dd-b451-a8f962cacd5e"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "11f5070f-a449-41ca-9b2f-ba34e5640c8e",
+                            "ap2ID": "d1a39e22-2286-49dd-b451-a8f962cacd5e"
+                        }
+                    ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
                 },
