@@ -30,8 +30,8 @@
         {
             "atomType": "Molecule",
             "name": "platon",
-            "x": 0.366,
-            "y": 0.18674698795180725,
+            "x": 0.36388508891928867,
+            "y": 0.17771084337349397,
             "uniqueID": "336b3038-5179-4f08-8676-1c6fc05d25f7",
             "ioValues": [
                 {
@@ -1334,25 +1334,10 @@
                     "compiledBom": []
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.2920656634746922,
-                    "y": 0.6927710843373494,
-                    "uniqueID": "fdaf1bb2-af3a-41df-9292-132ebd2f8657",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "fb77b1f6-9281-4f0c-9dcd-4f083c70d8e6"
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 0
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Plywood-rail-",
-                    "x": 0.15868673050615595,
-                    "y": 0.713855421686747,
+                    "x": 0.13816689466484267,
+                    "y": 0.8042168674698795,
                     "uniqueID": "fb77b1f6-9281-4f0c-9dcd-4f083c70d8e6",
                     "ioValues": [
                         {
@@ -2195,10 +2180,6 @@
                             "ioValue": "65bc7abe-2513-46de-af90-6cdde1945781"
                         },
                         {
-                            "name": "Shape 2",
-                            "ioValue": "fdaf1bb2-af3a-41df-9292-132ebd2f8657"
-                        },
-                        {
                             "name": "Shape 4",
                             "ioValue": "cf28d70f-53ae-415c-8bf7-0676c18c7e44"
                         }
@@ -2278,7 +2259,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": -19
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2304,7 +2285,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": -19
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2386,6 +2367,21 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "-x",
+                    "x": 0.33584131326949385,
+                    "y": 0.7228915662650602,
+                    "uniqueID": "76a22558-7a5a-4e06-94ca-05e9efe26ee4",
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 19
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "-x"
                 }
             ],
             "allConnectors": [
@@ -2409,6 +2405,13 @@
                     "ap2Primary": false,
                     "ap1ID": "4b7be503-9a7d-4189-a322-985162f2386a",
                     "ap2ID": "65bc7abe-2513-46de-af90-6cdde1945781"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": "4b7be503-9a7d-4189-a322-985162f2386a",
+                    "ap2ID": "76a22558-7a5a-4e06-94ca-05e9efe26ee4"
                 },
                 {
                     "ap1Name": "geometry",
@@ -2503,20 +2506,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": "fdaf1bb2-af3a-41df-9292-132ebd2f8657",
-                    "ap2ID": "38c5ccc8-78a2-4e53-8e28-8cbc2fb013a9"
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "fb77b1f6-9281-4f0c-9dcd-4f083c70d8e6",
-                    "ap2ID": "fdaf1bb2-af3a-41df-9292-132ebd2f8657"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": "38c5ccc8-78a2-4e53-8e28-8cbc2fb013a9",
@@ -2584,6 +2573,20 @@
                     "ap2Primary": false,
                     "ap1ID": "b568f99c-80d7-45f5-9f08-6358821d15b2",
                     "ap2ID": "cf28d70f-53ae-415c-8bf7-0676c18c7e44"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": "76a22558-7a5a-4e06-94ca-05e9efe26ee4",
+                    "ap2ID": "fe5d3ef6-bf29-4f6e-a786-ec9b78b2d669"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": "76a22558-7a5a-4e06-94ca-05e9efe26ee4",
+                    "ap2ID": "5aa979e7-4390-46fb-8f4b-a0be2f0353a7"
                 }
             ],
             "fileTypeVersion": 1,
