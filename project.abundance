@@ -472,8 +472,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4924760601915185,
-                            "y": 0.4759036144578313,
+                            "x": 0.4945280437756498,
+                            "y": 0.4789156626506024,
                             "uniqueID": "0e575e4f-bc2b-4ee5-b8bd-c949fc5af64e",
                             "ioValues": [
                                 {
@@ -601,8 +601,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Hole",
-                            "x": 0.4541723666210671,
-                            "y": 0.6506024096385542,
+                            "x": 0.44664842681258554,
+                            "y": 0.677710843373494,
                             "uniqueID": "c3bb8716-fbdf-4c7d-a59e-26e3e47eb1df",
                             "ioValues": [
                                 {
@@ -611,7 +611,7 @@
                                 },
                                 {
                                     "name": "length",
-                                    "ioValue": 20
+                                    "ioValue": 19
                                 },
                                 {
                                     "name": "x",
@@ -706,7 +706,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 20
+                                            "ioValue": 19
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -732,7 +732,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -10
+                                            "ioValue": -9.5
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -761,7 +761,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x",
-                                            "ioValue": 20
+                                            "ioValue": 19
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
