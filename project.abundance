@@ -318,7 +318,7 @@
                             "atomType": "Input",
                             "name": "ply thick",
                             "x": 0.0231,
-                            "y": 0.4879518072289156,
+                            "y": 0.575301204819277,
                             "uniqueID": "f92d23e6-6f81-4910-8586-9395f0e4012a",
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
@@ -332,11 +332,11 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -354,7 +354,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -362,17 +362,17 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.13543091655266756,
-                            "y": 0.5090361445783133,
+                            "x": 0.12585499316005472,
+                            "y": 0.6566265060240964,
                             "uniqueID": "5c3e4246-4c45-4efa-8bb8-5e2632329d92",
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 7
+                                    "ioValue": 14
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -390,7 +390,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -398,7 +398,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.405608755129959,
+                            "x": 0.41313269493844046,
                             "y": 0.3674698795180723,
                             "uniqueID": "b17b1383-31c8-46d9-b359-e025fa0adf9f",
                             "ioValues": [
@@ -442,8 +442,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.3850889192886457,
-                            "y": 0.5210843373493976,
+                            "x": 0.3960328317373461,
+                            "y": 0.5632530120481928,
                             "uniqueID": "e40ca06a-419c-4623-ac99-785b52199c46",
                             "ioValues": [
                                 {
@@ -468,7 +468,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5,
+                            "x": 0.4924760601915185,
                             "y": 0.4759036144578313,
                             "uniqueID": "0e575e4f-bc2b-4ee5-b8bd-c949fc5af64e",
                             "ioValues": [
@@ -482,11 +482,11 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 1
+                                    "ioValue": 2
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -512,17 +512,17 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.17099863201094392,
-                            "y": 0.8403614457831325,
+                            "x": 0.1744186046511628,
+                            "y": 0.8132530120481928,
                             "uniqueID": "b2b55edf-8577-4e79-a726-068394b67550",
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 15
+                                    "ioValue": 30
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -530,8 +530,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2811217510259918,
-                            "y": 0.825301204819277,
+                            "x": 0.2783857729138167,
+                            "y": 0.8132530120481928,
                             "uniqueID": "c61acc24-757b-443e-a677-38126101fb43",
                             "ioValues": [
                                 {
@@ -540,7 +540,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -589,17 +589,17 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Hole",
-                            "x": 0.47606019151846785,
-                            "y": 0.7650602409638555,
+                            "x": 0.44528043775649795,
+                            "y": 0.75,
                             "uniqueID": "c3bb8716-fbdf-4c7d-a59e-26e3e47eb1df",
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 5
+                                    "ioValue": 1.5875
                                 },
                                 {
                                     "name": "length",
-                                    "ioValue": 10
+                                    "ioValue": 5
                                 },
                                 {
                                     "name": "x",
@@ -676,7 +676,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 5
+                                            "ioValue": 1.5875
                                         }
                                     ],
                                     "description": "Creates a new circle."
@@ -694,7 +694,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 10
+                                            "ioValue": 5
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -720,7 +720,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -5
+                                            "ioValue": -2.5
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -749,7 +749,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x",
-                                            "ioValue": 10
+                                            "ioValue": 5
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -853,6 +853,32 @@
                             "unitsKey": "MM",
                             "fileTypeVersion": 1,
                             "compiledBom": []
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.5560875512995895,
+                            "y": 0.641566265060241,
+                            "uniqueID": "98e69cad-2b6e-4edd-8f00-6a269471c05e",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "c3bb8716-fbdf-4c7d-a59e-26e3e47eb1df"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 20
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         }
                     ],
                     "allConnectors": [
@@ -939,6 +965,13 @@
                             "ap2Primary": false,
                             "ap1ID": "aacc4605-57c2-4d9f-a9f7-c240984a7563",
                             "ap2ID": "1338b4c5-c0bd-4373-891a-529b4b70add8"
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "c3bb8716-fbdf-4c7d-a59e-26e3e47eb1df",
+                            "ap2ID": "98e69cad-2b6e-4edd-8f00-6a269471c05e"
                         }
                     ],
                     "fileTypeVersion": 1,
