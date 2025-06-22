@@ -869,7 +869,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5875512995896033,
+                            "x": 0.586,
                             "y": 0.5632530120481928,
                             "uniqueID": "98e69cad-2b6e-4edd-8f00-6a269471c05e",
                             "ioValues": [
@@ -887,7 +887,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 20
+                                    "ioValue": 30
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -1163,8 +1163,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6833105335157318,
-                            "y": 0.7710843373493976,
+                            "x": 0.676,
+                            "y": 0.7650602409638555,
                             "uniqueID": "e7beb937-e4d7-4557-8109-1a6ed935309c",
                             "ioValues": [
                                 {
@@ -2355,8 +2355,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5745554035567715,
-                    "y": 0.5662650602409639,
+                    "x": 0.578,
+                    "y": 0.5542168674698795,
                     "uniqueID": "fe5d3ef6-bf29-4f6e-a786-ec9b78b2d669",
                     "ioValues": [
                         {
@@ -2365,7 +2365,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -25
+                            "ioValue": -30
                         },
                         {
                             "name": "yDist",
@@ -2373,7 +2373,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -19
+                            "ioValue": -28.5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2381,8 +2381,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6101231190150479,
-                    "y": 0.6927710843373494,
+                    "x": 0.605,
+                    "y": 0.6867469879518072,
                     "uniqueID": "5aa979e7-4390-46fb-8f4b-a0be2f0353a7",
                     "ioValues": [
                         {
@@ -2391,7 +2391,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -25
+                            "ioValue": -30
                         },
                         {
                             "name": "yDist",
@@ -2399,7 +2399,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -19
+                            "ioValue": -28.5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2433,8 +2433,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5164158686730507,
-                    "y": 0.7801204819277108,
+                    "x": 0.528,
+                    "y": 0.7891566265060241,
                     "uniqueID": "cced46c3-0fb6-4b2d-8a9a-339d362e50b4",
                     "ioValues": [
                         {
@@ -2443,7 +2443,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 25
+                            "ioValue": 30
                         },
                         {
                             "name": "yDist",
@@ -2451,7 +2451,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -19
+                            "ioValue": -28.5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2469,7 +2469,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 25
+                            "ioValue": 30
                         },
                         {
                             "name": "yDist",
@@ -2477,16 +2477,16 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -19
+                            "ioValue": -28.5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
-                    "name": "-x",
-                    "x": 0.33584131326949385,
-                    "y": 0.7228915662650602,
+                    "name": "-x*1.5",
+                    "x": 0.31,
+                    "y": 0.6506024096385542,
                     "uniqueID": "76a22558-7a5a-4e06-94ca-05e9efe26ee4",
                     "ioValues": [
                         {
@@ -2495,7 +2495,7 @@
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "-x"
+                    "currentEquation": "-x*1.5"
                 }
             ],
             "allConnectors": [
@@ -11898,8 +11898,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.505,
-            "y": 0.8945783132530121,
+            "x": 0.507,
+            "y": 0.8795180722891566,
             "uniqueID": "7dede09d-290c-47ef-b3a3-f7852018c619",
             "ioValues": [
                 {
