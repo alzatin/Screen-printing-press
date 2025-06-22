@@ -1936,8 +1936,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamp",
-            "x": 0.111,
-            "y": 0.9216867469879518,
+            "x": 0.11399999999999999,
+            "y": 0.9006024096385543,
             "uniqueID": "c6844ece-4723-4c9e-8801-14928345e017",
             "ioValues": [
                 {
@@ -4698,7 +4698,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "1834bb72-03d2-4685-ae93-23a8368a685c"
+                            "ioValue": "2025171d-167d-4fa4-8b2a-7f34f32afc71"
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -7110,23 +7110,6 @@
                 {
                     "atomType": "Tag",
                     "name": "cut 3/4",
-                    "x": 0.881,
-                    "y": 0.35542168674698793,
-                    "uniqueID": "1834bb72-03d2-4685-ae93-23a8368a685c",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "2025171d-167d-4fa4-8b2a-7f34f32afc71"
-                        }
-                    ],
-                    "description": "Tags geometry so that it can be extracted later.",
-                    "tags": [
-                        "cut 3/4"
-                    ]
-                },
-                {
-                    "atomType": "Tag",
-                    "name": "cut 3/4",
                     "x": 0.45499999999999996,
                     "y": 0.14759036144578314,
                     "uniqueID": "9f02b410-b1dc-48ee-b227-e3204d69cc26",
@@ -7250,10 +7233,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": "2025171d-167d-4fa4-8b2a-7f34f32afc71",
-                    "ap2ID": "1834bb72-03d2-4685-ae93-23a8368a685c"
+                    "ap2ID": "9f4dcf3c-b8c9-4e77-ae0d-63799a87eff3"
                 },
                 {
                     "ap1Name": "result",
@@ -7261,13 +7244,6 @@
                     "ap2Primary": false,
                     "ap1ID": "3db11843-2040-4abd-80f5-a7e46db0f958",
                     "ap2ID": "2025171d-167d-4fa4-8b2a-7f34f32afc71"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "1834bb72-03d2-4685-ae93-23a8368a685c",
-                    "ap2ID": "9f4dcf3c-b8c9-4e77-ae0d-63799a87eff3"
                 },
                 {
                     "ap1Name": "geometry",
