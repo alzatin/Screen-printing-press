@@ -295,6 +295,10 @@
                         {
                             "name": "platon width",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "clamp height",
+                            "ioValue": 30
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -326,17 +330,17 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.173734610123119,
-                            "y": 0.3734939759036145,
+                            "x": 0.16552667578659372,
+                            "y": 0.4126506024096385,
                             "uniqueID": "baa0443b-9b99-4103-9d30-97c65d95e365",
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 20
+                                    "ioValue": 30
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 20
+                                    "ioValue": 30
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -354,7 +358,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 20
+                                    "ioValue": 30
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -362,17 +366,17 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.12585499316005472,
-                            "y": 0.6566265060240964,
+                            "x": 0.20656634746922023,
+                            "y": 0.6265060240963854,
                             "uniqueID": "5c3e4246-4c45-4efa-8bb8-5e2632329d92",
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 14
+                                    "ioValue": 23.076923076923077
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 20
+                                    "ioValue": 23.076923076923077
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -380,8 +384,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.286593707250342,
-                            "y": 0.5512048192771084,
+                            "x": 0.2818057455540356,
+                            "y": 0.5542168674698795,
                             "uniqueID": "751d635a-33ee-4c76-80c8-f0b3854adcf9",
                             "ioValues": [
                                 {
@@ -390,7 +394,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 20
+                                    "ioValue": 30
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -512,17 +516,17 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.1744186046511628,
-                            "y": 0.8132530120481928,
+                            "x": 0.23324213406292751,
+                            "y": 0.8343373493975904,
                             "uniqueID": "b2b55edf-8577-4e79-a726-068394b67550",
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 20
+                                    "ioValue": 30
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 30
+                                    "ioValue": 60
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -530,8 +534,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.2783857729138167,
-                            "y": 0.8132530120481928,
+                            "x": 0.3071135430916553,
+                            "y": 0.786144578313253,
                             "uniqueID": "c61acc24-757b-443e-a677-38126101fb43",
                             "ioValues": [
                                 {
@@ -589,7 +593,7 @@
                             "atomType": "Input",
                             "name": "platon width",
                             "x": 0.0231,
-                            "y": 0.46686746987951805,
+                            "y": 0.8463855421686747,
                             "uniqueID": "e74307fa-d6c7-4923-815d-a272859244ff",
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
@@ -597,7 +601,7 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Hole",
-                            "x": 0.4562243502051983,
+                            "x": 0.4541723666210671,
                             "y": 0.6506024096385542,
                             "uniqueID": "c3bb8716-fbdf-4c7d-a59e-26e3e47eb1df",
                             "ioValues": [
@@ -607,7 +611,7 @@
                                 },
                                 {
                                     "name": "length",
-                                    "ioValue": 10
+                                    "ioValue": 20
                                 },
                                 {
                                     "name": "x",
@@ -702,7 +706,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 10
+                                            "ioValue": 20
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -728,7 +732,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -5
+                                            "ioValue": -10
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -757,7 +761,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x",
-                                            "ioValue": 10
+                                            "ioValue": 20
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -891,8 +895,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Hole",
-                            "x": 0.39466484268125857,
-                            "y": 0.8644578313253012,
+                            "x": 0.45964432284541723,
+                            "y": 0.8885542168674698,
                             "uniqueID": "cb71a912-bef9-48a2-9007-c8023e8ecfcf",
                             "ioValues": [
                                 {
@@ -901,7 +905,7 @@
                                 },
                                 {
                                     "name": "length",
-                                    "ioValue": 5
+                                    "ioValue": 15
                                 },
                                 {
                                     "name": "x",
@@ -996,7 +1000,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 5
+                                            "ioValue": 15
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1022,7 +1026,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -2.5
+                                            "ioValue": -7.5
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1051,7 +1055,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x",
-                                            "ioValue": 5
+                                            "ioValue": 15
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1159,8 +1163,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6067031463748289,
-                            "y": 0.7680722891566265,
+                            "x": 0.6833105335157318,
+                            "y": 0.7710843373493976,
                             "uniqueID": "e7beb937-e4d7-4557-8109-1a6ed935309c",
                             "ioValues": [
                                 {
@@ -1185,8 +1189,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.5082079343365253,
-                            "y": 0.8614457831325302,
+                            "x": 0.5909712722298222,
+                            "y": 0.8885542168674698,
                             "uniqueID": "467a963f-92be-4888-8e53-a68164e26b00",
                             "ioValues": [
                                 {
@@ -1207,6 +1211,46 @@
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "clamp height",
+                            "x": 0.0231,
+                            "y": 0.4487951807228916,
+                            "uniqueID": "cc45b449-32e2-4e94-8093-e1bc9f47b7e6",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "x *2",
+                            "x": 0.12243502051983585,
+                            "y": 0.8825301204819277,
+                            "uniqueID": "b53affde-4434-46db-885a-5910bd3de43c",
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 30
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "x *2"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "x /1.3",
+                            "x": 0.12448700410396717,
+                            "y": 0.680722891566265,
+                            "uniqueID": "cc0ff203-2405-4c4e-83eb-97fdddc6bdff",
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 30
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "x /1.3"
                         }
                     ],
                     "allConnectors": [
@@ -1328,6 +1372,76 @@
                             "ap2Primary": true,
                             "ap1ID": "467a963f-92be-4888-8e53-a68164e26b00",
                             "ap2ID": "e7beb937-e4d7-4557-8109-1a6ed935309c"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x length",
+                            "ap2Primary": false,
+                            "ap1ID": "cc45b449-32e2-4e94-8093-e1bc9f47b7e6",
+                            "ap2ID": "baa0443b-9b99-4103-9d30-97c65d95e365"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": "cc45b449-32e2-4e94-8093-e1bc9f47b7e6",
+                            "ap2ID": "baa0443b-9b99-4103-9d30-97c65d95e365"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "height",
+                            "ap2Primary": false,
+                            "ap1ID": "cc45b449-32e2-4e94-8093-e1bc9f47b7e6",
+                            "ap2ID": "541726ec-c065-4729-951c-2a9be86420a2"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "height",
+                            "ap2Primary": false,
+                            "ap1ID": "cc45b449-32e2-4e94-8093-e1bc9f47b7e6",
+                            "ap2ID": "751d635a-33ee-4c76-80c8-f0b3854adcf9"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x length",
+                            "ap2Primary": false,
+                            "ap1ID": "cc45b449-32e2-4e94-8093-e1bc9f47b7e6",
+                            "ap2ID": "b2b55edf-8577-4e79-a726-068394b67550"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x",
+                            "ap2Primary": false,
+                            "ap1ID": "cc45b449-32e2-4e94-8093-e1bc9f47b7e6",
+                            "ap2ID": "b53affde-4434-46db-885a-5910bd3de43c"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x",
+                            "ap2Primary": false,
+                            "ap1ID": "cc45b449-32e2-4e94-8093-e1bc9f47b7e6",
+                            "ap2ID": "cc0ff203-2405-4c4e-83eb-97fdddc6bdff"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": "b53affde-4434-46db-885a-5910bd3de43c",
+                            "ap2ID": "b2b55edf-8577-4e79-a726-068394b67550"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "x length",
+                            "ap2Primary": false,
+                            "ap1ID": "cc0ff203-2405-4c4e-83eb-97fdddc6bdff",
+                            "ap2ID": "5c3e4246-4c45-4efa-8bb8-5e2632329d92"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": "cc0ff203-2405-4c4e-83eb-97fdddc6bdff",
+                            "ap2ID": "5c3e4246-4c45-4efa-8bb8-5e2632329d92"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -2337,7 +2451,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": -19
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2363,7 +2477,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": -19
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2587,6 +2701,20 @@
                     "ap2Primary": false,
                     "ap1ID": "76a22558-7a5a-4e06-94ca-05e9efe26ee4",
                     "ap2ID": "5aa979e7-4390-46fb-8f4b-a0be2f0353a7"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": "76a22558-7a5a-4e06-94ca-05e9efe26ee4",
+                    "ap2ID": "cced46c3-0fb6-4b2d-8a9a-339d362e50b4"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": "76a22558-7a5a-4e06-94ca-05e9efe26ee4",
+                    "ap2ID": "b568f99c-80d7-45f5-9f08-6358821d15b2"
                 }
             ],
             "fileTypeVersion": 1,
