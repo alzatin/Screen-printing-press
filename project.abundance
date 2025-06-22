@@ -11146,8 +11146,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.52,
-            "y": 0.7168674698795181,
+            "x": 0.536,
+            "y": 0.7078313253012049,
             "uniqueID": "f5231dc6-ced9-4581-934f-f660ac132d18",
             "ioValues": [
                 {
@@ -11160,7 +11160,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 210
+                    "ioValue": 185
                 },
                 {
                     "name": "zDist",
@@ -11172,8 +11172,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.636,
-            "y": 0.5873493975903614,
+            "x": 0.638,
+            "y": 0.5662650602409639,
             "uniqueID": "bc2ee450-7c96-4a52-92d9-9d9c5c106e5a",
             "ioValues": [
                 {
