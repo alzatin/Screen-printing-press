@@ -2242,7 +2242,7 @@
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.6499999999999999,
-                    "y": 0.8855421686746988,
+                    "y": 0.891566265060241,
                     "uniqueID": "5f2db935-590d-4a5c-8ec1-78ab8acdc39e",
                     "ioValues": [
                         {
@@ -2267,8 +2267,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7359781121751026,
-                    "y": 0.8403614457831325,
+                    "x": 0.8730000000000001,
+                    "y": 0.8373493975903615,
                     "uniqueID": "eef08b9c-d5aa-4fc3-b394-e04759e4a40a",
                     "ioValues": [
                         {
@@ -2281,11 +2281,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -6.75
+                            "ioValue": 4
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 9.5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4356,6 +4356,21 @@
                     "tags": [
                         "cut 3/4"
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x /2",
+                    "x": 0.716,
+                    "y": 0.7891566265060241,
+                    "uniqueID": "d08a300e-6400-4e5c-9bd5-51102ad6286f",
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 19
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x /2"
                 }
             ],
             "allConnectors": [
@@ -4421,6 +4436,13 @@
                     "ap2Primary": false,
                     "ap1ID": "d3baa9b2-1b98-4926-b8be-e7b19ff76c38",
                     "ap2ID": "a7a09ecf-49ed-4212-92d5-f9251c913675"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": "d3baa9b2-1b98-4926-b8be-e7b19ff76c38",
+                    "ap2ID": "d08a300e-6400-4e5c-9bd5-51102ad6286f"
                 },
                 {
                     "ap1Name": "geometry",
@@ -4659,6 +4681,13 @@
                     "ap2Primary": true,
                     "ap1ID": "dffd59c1-0623-4456-8793-8b8150fcaf0f",
                     "ap2ID": "677ec036-29a5-45da-bb5b-6d3223cd7bbd"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": "d08a300e-6400-4e5c-9bd5-51102ad6286f",
+                    "ap2ID": "eef08b9c-d5aa-4fc3-b394-e04759e4a40a"
                 }
             ],
             "fileTypeVersion": 1,
@@ -11273,8 +11302,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.895,
-            "y": 0.3192771084337349,
+            "x": 0.8920000000000001,
+            "y": 0.3132530120481927,
             "uniqueID": "16b78efe-ad8b-4442-a711-37407b9e4436",
             "ioValues": [
                 {
