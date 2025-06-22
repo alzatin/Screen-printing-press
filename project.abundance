@@ -1946,7 +1946,7 @@
                 },
                 {
                     "name": "ply thick 2",
-                    "ioValue": 7.5
+                    "ioValue": 12.7
                 },
                 {
                     "name": "clamp width",
@@ -1991,8 +1991,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.1039671682626539,
-                    "y": 0.2680722891566265,
+                    "x": 0.112,
+                    "y": 0.2319277108433735,
                     "uniqueID": "494d7599-f15a-4b40-bd1d-c094c262b1dc",
                     "ioValues": [
                         {
@@ -2151,8 +2151,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.11696306429548564,
-                    "y": 0.8734939759036144,
+                    "x": 0.107,
+                    "y": 0.8674698795180724,
                     "uniqueID": "39a0ba14-2dee-40c2-b395-0c5488342a13",
                     "ioValues": [
                         {
@@ -2179,8 +2179,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.221,
-                    "y": 0.8313253012048193,
+                    "x": 0.23900000000000002,
+                    "y": 0.8493975903614458,
                     "uniqueID": "52a175dc-44fb-4333-926e-ed2a67c8ce4b",
                     "ioValues": [
                         {
@@ -2189,7 +2189,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 7.5
+                            "ioValue": 12.7
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2197,8 +2197,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4172366621067032,
-                    "y": 0.9006024096385543,
+                    "x": 0.377,
+                    "y": 0.8945783132530121,
                     "uniqueID": "ab8df650-dd4c-418a-8f1f-49657406cc06",
                     "ioValues": [
                         {
@@ -2215,7 +2215,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 7.5
+                            "ioValue": 12.7
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2223,8 +2223,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.518,
-                    "y": 0.8765060240963856,
+                    "x": 0.517,
+                    "y": 0.8493975903614458,
                     "uniqueID": "b01477e9-a95d-4911-8321-69b9e99e307c",
                     "ioValues": [
                         {
@@ -2944,8 +2944,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5,
-                    "y": 0.32228915662650603,
+                    "x": 0.449,
+                    "y": 0.2921686746987952,
                     "uniqueID": "b7c58182-a371-4ab8-b995-5dc58079ff06",
                     "ioValues": [
                         {
@@ -3050,7 +3050,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 7.5
+                            "ioValue": 19
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -4416,6 +4416,13 @@
                     "ap2ID": "b0e8f4e5-e288-4b4f-a6d6-54b24b90cfe7"
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": "d3baa9b2-1b98-4926-b8be-e7b19ff76c38",
+                    "ap2ID": "a7a09ecf-49ed-4212-92d5-f9251c913675"
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
@@ -4449,13 +4456,6 @@
                     "ap2Primary": false,
                     "ap1ID": "35d7f975-40c9-4dc8-a3e5-3a8c6d30962b",
                     "ap2ID": "ab8df650-dd4c-418a-8f1f-49657406cc06"
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap2Primary": false,
-                    "ap1ID": "35d7f975-40c9-4dc8-a3e5-3a8c6d30962b",
-                    "ap2ID": "a7a09ecf-49ed-4212-92d5-f9251c913675"
                 },
                 {
                     "ap1Name": "geometry",
