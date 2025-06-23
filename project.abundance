@@ -1936,8 +1936,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamp",
-            "x": 0.11080711354309165,
-            "y": 0.9216867469879518,
+            "x": 0.11285909712722297,
+            "y": 0.8945783132530121,
             "uniqueID": "c6844ece-4723-4c9e-8801-14928345e017",
             "ioValues": [
                 {
@@ -3120,13 +3120,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolt pattern",
-                    "x": 0.7599179206566348,
-                    "y": 0.07530120481927711,
+                    "x": 0.7640218878248974,
+                    "y": 0.11746987951807229,
                     "uniqueID": "17ce5617-4f27-4e4f-8e54-ea5867609078",
                     "ioValues": [
                         {
                             "name": "pry thick 1",
-                            "ioValue": 10
+                            "ioValue": 19
                         },
                         {
                             "name": "ply thick 2",
@@ -3785,7 +3785,7 @@
                                 },
                                 {
                                     "name": "length",
-                                    "ioValue": 10
+                                    "ioValue": 19
                                 },
                                 {
                                     "name": "x",
@@ -3880,7 +3880,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 10
+                                            "ioValue": 19
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3906,7 +3906,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -5
+                                            "ioValue": -9.5
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -3935,7 +3935,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x",
-                                            "ioValue": 10
+                                            "ioValue": 19
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -4061,7 +4061,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -2
+                                    "ioValue": -6.5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4087,7 +4087,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -2
+                                    "ioValue": -6.5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4113,7 +4113,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -2
+                                    "ioValue": -6.5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4153,7 +4153,7 @@
                             "ioValues": [
                                 {
                                     "name": "x",
-                                    "ioValue": 10
+                                    "ioValue": 19
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -4287,8 +4287,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.8324213406292751,
-                    "y": 0.11746987951807229,
+                    "x": 0.83515731874145,
+                    "y": 0.1355421686746988,
                     "uniqueID": "46d18fa2-87bf-48ad-b445-d04677cc6733",
                     "ioValues": [
                         {
@@ -4305,7 +4305,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4379,8 +4379,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "rail to clamp",
-                    "x": 0.6922024623803009,
-                    "y": 0.1957831325301205,
+                    "x": 0.6867305061559508,
+                    "y": 0.22891566265060243,
                     "uniqueID": "2a36f142-0d02-4e46-aef5-2fd69f04d8cd",
                     "ioValues": [
                         {
@@ -4453,7 +4453,7 @@
                                 },
                                 {
                                     "name": "length",
-                                    "ioValue": 19
+                                    "ioValue": 95
                                 },
                                 {
                                     "name": "x",
@@ -4461,7 +4461,7 @@
                                 },
                                 {
                                     "name": "y",
-                                    "ioValue": -30
+                                    "ioValue": -35
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4548,7 +4548,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 19
+                                            "ioValue": 95
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -4570,11 +4570,11 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -30
+                                            "ioValue": -35
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -9.5
+                                            "ioValue": -47.5
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4603,7 +4603,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x",
-                                            "ioValue": 19
+                                            "ioValue": 95
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -4711,8 +4711,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4767441860465116,
-                            "y": 0.32228915662650603,
+                            "x": 0.4822161422708618,
+                            "y": 0.3433734939759036,
                             "uniqueID": "237123ee-2187-46fe-97de-a6bf76989202",
                             "ioValues": [
                                 {
@@ -4721,7 +4721,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 5
+                                    "ioValue": 8
                                 },
                                 {
                                     "name": "yDist",
@@ -4737,8 +4737,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.46853625170998636,
-                            "y": 0.7018072289156627,
+                            "x": 0.46785225718194257,
+                            "y": 0.7409638554216867,
                             "uniqueID": "cc758bbe-3335-49dd-b8e7-f50101f8159f",
                             "ioValues": [
                                 {
@@ -4747,7 +4747,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -5
+                                    "ioValue": -8
                                 },
                                 {
                                     "name": "yDist",
@@ -4763,8 +4763,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.655266757865937,
-                            "y": 0.4909638554216868,
+                            "x": 0.7202462380300957,
+                            "y": 0.463855421686747,
                             "uniqueID": "ca9ef7e2-9604-4910-8cf6-0ea9f05ae1a6",
                             "ioValues": [
                                 {
@@ -4777,15 +4777,30 @@
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "x * 5",
+                            "x": 0.1778385772913817,
+                            "y": 0.713855421686747,
+                            "uniqueID": "4195b3f5-b27f-48db-860d-5c8b7b875cc5",
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 19
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "x * 5"
                         }
                     ],
                     "allConnectors": [
                         {
                             "ap1Name": "number or geometry",
-                            "ap2Name": "length",
+                            "ap2Name": "x",
                             "ap2Primary": false,
                             "ap1ID": "0cf82d2b-67c0-4316-935d-0a3957243016",
-                            "ap2ID": "e831d4cc-7c77-4a57-9ac6-f11a7bb962cc"
+                            "ap2ID": "4195b3f5-b27f-48db-860d-5c8b7b875cc5"
                         },
                         {
                             "ap1Name": "Geometry",
@@ -4821,6 +4836,13 @@
                             "ap2Primary": false,
                             "ap1ID": "ca9ef7e2-9604-4910-8cf6-0ea9f05ae1a6",
                             "ap2ID": "7b610cb4-85da-4ef3-bced-7066444893f6"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "length",
+                            "ap2Primary": false,
+                            "ap1ID": "4195b3f5-b27f-48db-860d-5c8b7b875cc5",
+                            "ap2ID": "e831d4cc-7c77-4a57-9ac6-f11a7bb962cc"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -4904,6 +4926,13 @@
                     "ap2Primary": false,
                     "ap1ID": "d3baa9b2-1b98-4926-b8be-e7b19ff76c38",
                     "ap2ID": "2a36f142-0d02-4e46-aef5-2fd69f04d8cd"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "pry thick 1",
+                    "ap2Primary": false,
+                    "ap1ID": "d3baa9b2-1b98-4926-b8be-e7b19ff76c38",
+                    "ap2ID": "17ce5617-4f27-4e4f-8e54-ea5867609078"
                 },
                 {
                     "ap1Name": "geometry",
@@ -11777,8 +11806,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.8920000000000001,
-            "y": 0.3042168674698795,
+            "x": 0.8885088919288646,
+            "y": 0.28313253012048195,
             "uniqueID": "16b78efe-ad8b-4442-a711-37407b9e4436",
             "ioValues": [
                 {
@@ -11802,67 +11831,27 @@
             "placements": [
                 [
                     {
-                        "id": 1,
-                        "rotate": 210,
-                        "translate": {
-                            "x": 143.0499995866202,
-                            "y": 51.589050850838426
-                        }
-                    },
-                    {
-                        "id": 2,
-                        "rotate": 240,
-                        "translate": {
-                            "x": 120.33454915720745,
-                            "y": 174.30087268067638
-                        }
-                    },
-                    {
                         "id": 3,
-                        "rotate": 60,
-                        "translate": {
-                            "x": 142.02046377768096,
-                            "y": 304.18050004599365
-                        }
-                    },
-                    {
-                        "id": 6,
-                        "rotate": 0,
-                        "translate": {
-                            "x": 150.9185053,
-                            "y": 296.07038682919074
-                        }
-                    },
-                    {
-                        "id": 5,
                         "rotate": 150,
                         "translate": {
-                            "x": 116.3042015460449,
-                            "y": 493.61851107060795
-                        }
-                    },
-                    {
-                        "id": 4,
-                        "rotate": 270,
-                        "translate": {
-                            "x": 237.34002589011249,
-                            "y": 494.6017082433566
-                        }
-                    },
-                    {
-                        "id": 7,
-                        "rotate": 60,
-                        "translate": {
-                            "x": 90.65988782031656,
-                            "y": 538.6774166517837
+                            "x": 123.10840989918024,
+                            "y": 85.79470325040069
                         }
                     },
                     {
                         "id": 0,
-                        "rotate": 150,
+                        "rotate": 270,
                         "translate": {
-                            "x": 119.10687319540747,
-                            "y": 676.0480499311885
+                            "x": 55.44386341924493,
+                            "y": 316.0450696861025
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 128.1,
+                            "y": 510.1853023486896
                         }
                     },
                     {
@@ -11870,7 +11859,47 @@
                         "rotate": 0,
                         "translate": {
                             "x": 153.1,
-                            "y": 1427.908016405881
+                            "y": 1137.4587414919833
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "rotate": 210,
+                        "translate": {
+                            "x": 192.64308007740703,
+                            "y": 360.5649316108174
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "rotate": 330,
+                        "translate": {
+                            "x": 167.04922733350276,
+                            "y": 144.31561822707044
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 128.1,
+                            "y": 989.0853023545706
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "rotate": 270,
+                        "translate": {
+                            "x": 95.76867862919077,
+                            "y": 1058.8450696919833
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "rotate": 180,
+                        "translate": {
+                            "x": 103.10000000000001,
+                            "y": 1085.0450696919831
                         }
                     }
                 ]
@@ -11913,8 +11942,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7799999999999999,
-            "y": 0.6445783132530121,
+            "x": 0.7496580027359782,
+            "y": 0.677710843373494,
             "uniqueID": "511ee0ce-0808-4894-be45-5134889c9c04",
             "ioValues": [
                 {
@@ -11929,8 +11958,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.8799999999999999,
-            "y": 0.7048192771084337,
+            "x": 0.8160054719562244,
+            "y": 0.7379518072289156,
             "uniqueID": "6b1d677f-844c-41f2-b0bb-29dd8fcff51f",
             "ioValues": [
                 {
