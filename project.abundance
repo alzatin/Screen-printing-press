@@ -1936,8 +1936,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamp",
-            "x": 0.11399999999999999,
-            "y": 0.9006024096385543,
+            "x": 0.11080711354309165,
+            "y": 0.9216867469879518,
             "uniqueID": "c6844ece-4723-4c9e-8801-14928345e017",
             "ioValues": [
                 {
@@ -1991,8 +1991,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.112,
-                    "y": 0.2319277108433735,
+                    "x": 0.11422708618331052,
+                    "y": 0.20783132530120482,
                     "uniqueID": "494d7599-f15a-4b40-bd1d-c094c262b1dc",
                     "ioValues": [
                         {
@@ -2009,8 +2009,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.31874145006839943,
-                    "y": 0.4307228915662651,
+                    "x": 0.313953488372093,
+                    "y": 0.3734939759036145,
                     "uniqueID": "72691cf7-2000-46c3-bd47-4d81714324bd",
                     "ioValues": [
                         {
@@ -2035,8 +2035,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.4179206566347469,
-                    "y": 0.17469879518072287,
+                    "x": 0.4240766073871409,
+                    "y": 0.1927710843373494,
                     "uniqueID": "41194356-0cd7-49d5-80b6-db5296a88ea7",
                     "ioValues": [
                         {
@@ -2053,8 +2053,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.62,
-                    "y": 0.39759036144578314,
+                    "x": 0.6244870041039672,
+                    "y": 0.2650602409638554,
                     "uniqueID": "b0e8f4e5-e288-4b4f-a6d6-54b24b90cfe7",
                     "ioValues": [
                         {
@@ -2071,8 +2071,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.9192886456908345,
-                    "y": 0.6295180722891566,
+                    "x": 0.9309165526675787,
+                    "y": 0.6054216867469879,
                     "uniqueID": "0317c63b-47e4-4859-af09-0525f27cf36b",
                     "ioValues": [
                         {
@@ -2107,8 +2107,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.20383036935704513,
-                    "y": 0.3102409638554217,
+                    "x": 0.207250341997264,
+                    "y": 0.3283132530120482,
                     "uniqueID": "835cebca-9dc0-4871-bb47-45e97570b448",
                     "ioValues": [
                         {
@@ -2197,8 +2197,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.377,
-                    "y": 0.8945783132530121,
+                    "x": 0.37277701778385774,
+                    "y": 0.9036144578313253,
                     "uniqueID": "ab8df650-dd4c-418a-8f1f-49657406cc06",
                     "ioValues": [
                         {
@@ -2223,8 +2223,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.517,
-                    "y": 0.8493975903614458,
+                    "x": 0.5143638850889193,
+                    "y": 0.8825301204819277,
                     "uniqueID": "b01477e9-a95d-4911-8321-69b9e99e307c",
                     "ioValues": [
                         {
@@ -2293,8 +2293,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.8125854993160055,
-                    "y": 0.4457831325301205,
+                    "x": 0.8618331053351572,
+                    "y": 0.3704819277108434,
                     "uniqueID": "677ec036-29a5-45da-bb5b-6d3223cd7bbd",
                     "ioValues": [
                         {
@@ -2866,8 +2866,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4015047879616963,
-                    "y": 0.4307228915662651,
+                    "x": 0.40013679890560877,
+                    "y": 0.45180722891566266,
                     "uniqueID": "4169e0bd-667c-4133-b480-60b905605dc2",
                     "ioValues": [
                         {
@@ -2918,8 +2918,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6388508891928865,
-                    "y": 0.5903614457831325,
+                    "x": 0.6839945280437757,
+                    "y": 0.6957831325301205,
                     "uniqueID": "5f4ab711-8a63-4c89-8b88-b9eda642f29a",
                     "ioValues": [
                         {
@@ -3022,8 +3022,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.6101231190150479,
-                    "y": 0.16566265060240964,
+                    "x": 0.6053351573187414,
+                    "y": 0.4457831325301205,
                     "uniqueID": "387420a2-186f-4c28-a52e-8d28090e1ed8",
                     "ioValues": [
                         {
@@ -3040,8 +3040,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.701,
-                    "y": 0.35843373493975905,
+                    "x": 0.725718194254446,
+                    "y": 0.42168674698795183,
                     "uniqueID": "a7a09ecf-49ed-4212-92d5-f9251c913675",
                     "ioValues": [
                         {
@@ -3068,8 +3068,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8680000000000001,
-                    "y": 0.19879518072289157,
+                    "x": 0.9227086183310534,
+                    "y": 0.41867469879518077,
                     "uniqueID": "37e40f52-9982-41e2-ba7f-987206090ecc",
                     "ioValues": [
                         {
@@ -3116,8 +3116,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolt pattern",
-                    "x": 0.723,
-                    "y": 0.14457831325301204,
+                    "x": 0.786593707250342,
+                    "y": 0.0963855421686747,
                     "uniqueID": "17ce5617-4f27-4e4f-8e54-ea5867609078",
                     "ioValues": [
                         {
@@ -4283,8 +4283,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.764,
-                    "y": 0.30120481927710846,
+                    "x": 0.8324213406292751,
+                    "y": 0.11746987951807229,
                     "uniqueID": "46d18fa2-87bf-48ad-b445-d04677cc6733",
                     "ioValues": [
                         {
@@ -4326,8 +4326,8 @@
                 {
                     "atomType": "Tag",
                     "name": "cut 3/4",
-                    "x": 0.6890000000000001,
-                    "y": 0.5391566265060241,
+                    "x": 0.6696306429548564,
+                    "y": 0.5090361445783133,
                     "uniqueID": "f80e02db-48c4-43cb-be8d-fd5c3d1cf0b4",
                     "ioValues": [
                         {
@@ -4343,8 +4343,8 @@
                 {
                     "atomType": "Tag",
                     "name": "cut 3/4",
-                    "x": 0.732,
-                    "y": 0.569277108433735,
+                    "x": 0.8119015047879617,
+                    "y": 0.4789156626506024,
                     "uniqueID": "dffd59c1-0623-4456-8793-8b8150fcaf0f",
                     "ioValues": [
                         {
@@ -4371,6 +4371,70 @@
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x /2"
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 0.6826265389876881,
+                    "y": 0.1536144578313253,
+                    "uniqueID": "2a36f142-0d02-4e46-aef5-2fd69f04d8cd",
+                    "ioValues": [
+                        {
+                            "name": "pry thick 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "ply thick 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "clamp width",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "7b610cb4-85da-4ef3-bced-7066444893f6",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "pry thick 1",
+                            "x": 0.0231,
+                            "y": 0.6837349397590361,
+                            "uniqueID": "0cf82d2b-67c0-4316-935d-0a3957243016",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "ply thick 2",
+                            "x": 0.0231,
+                            "y": 0.3072289156626506,
+                            "uniqueID": "5cd2159b-e963-451f-9a92-139c4a99a5ac",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "clamp width",
+                            "x": 0.0231,
+                            "y": 0.5,
+                            "uniqueID": "62cf5a2e-474c-4cac-8b0e-551454ca13eb",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -11216,8 +11280,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.637,
-            "y": 0.8825301204819277,
+            "x": 0.6224350205198358,
+            "y": 0.8945783132530121,
             "uniqueID": "bc8f3838-6c17-492e-a0b8-d7581873288a",
             "ioValues": [
                 {
@@ -11230,11 +11294,11 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 150
+                    "ioValue": 130
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 210
+                    "ioValue": 205
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
