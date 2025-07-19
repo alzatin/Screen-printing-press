@@ -103,7 +103,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.6987951807228915,
                     "uniqueID": "4b7be503-9a7d-4189-a322-985162f2386a",
                     "ioValues": [],
@@ -201,7 +201,7 @@
                 {
                     "atomType": "Input",
                     "name": "platon length",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.3313253012048193,
                     "uniqueID": "aff8cb1f-3398-4b42-b499-0d366cea5065",
                     "ioValues": [],
@@ -211,7 +211,7 @@
                 {
                     "atomType": "Input",
                     "name": "platon width",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.46686746987951805,
                     "uniqueID": "caf3a42c-2a16-4d41-9f50-e233795f8c43",
                     "ioValues": [],
@@ -321,7 +321,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.575301204819277,
                             "uniqueID": "f92d23e6-6f81-4910-8586-9395f0e4012a",
                             "ioValues": [],
@@ -574,7 +574,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.6987951807228915,
                             "uniqueID": "a36501e7-3051-410b-952d-f9f4a8f92dcb",
                             "ioValues": [],
@@ -583,7 +583,7 @@
                         {
                             "atomType": "Input",
                             "name": "platon length",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.3313253012048193,
                             "uniqueID": "d5733fa4-47b5-4ab8-b00c-25b5f07f31f5",
                             "ioValues": [],
@@ -592,7 +592,7 @@
                         {
                             "atomType": "Input",
                             "name": "platon width",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.8463855421686747,
                             "uniqueID": "e74307fa-d6c7-4923-815d-a272859244ff",
                             "ioValues": [],
@@ -642,7 +642,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "diameter",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.2680722891566265,
                                     "uniqueID": "6faa93c5-b3b6-4827-a7ce-4cdfc2bdc94d",
                                     "ioValues": [],
@@ -652,7 +652,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "length",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.39759036144578314,
                                     "uniqueID": "f51553a9-a945-4114-993f-8ab24d49863f",
                                     "ioValues": [],
@@ -662,7 +662,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "x",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.5903614457831325,
                                     "uniqueID": "19ee2c84-3b21-40d2-b84a-138f1e51dec7",
                                     "ioValues": [],
@@ -672,7 +672,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "y",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.7409638554216867,
                                     "uniqueID": "60b5044e-03dd-4e1b-b85b-14f1ea7940f4",
                                     "ioValues": [],
@@ -936,7 +936,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "diameter",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.2680722891566265,
                                     "uniqueID": "403885b0-bb94-4525-87e8-ce4bafd6ab9f",
                                     "ioValues": [],
@@ -946,7 +946,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "length",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.39759036144578314,
                                     "uniqueID": "2aab090f-53e6-4d24-987c-26df62c0d96c",
                                     "ioValues": [],
@@ -956,7 +956,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "x",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.5903614457831325,
                                     "uniqueID": "5fdb5267-6630-4906-bab3-1c0e4a1e7b70",
                                     "ioValues": [],
@@ -966,7 +966,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "y",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.7409638554216867,
                                     "uniqueID": "78c7dfbd-eb7e-4a26-9cd3-b90439add97c",
                                     "ioValues": [],
@@ -1215,7 +1215,7 @@
                         {
                             "atomType": "Input",
                             "name": "clamp height",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.4487951807228916,
                             "uniqueID": "cc45b449-32e2-4e94-8093-e1bc9f47b7e6",
                             "ioValues": [],
@@ -2101,7 +2101,7 @@
                 {
                     "atomType": "Input",
                     "name": "pry thick 1",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.6837349397590361,
                     "uniqueID": "d3baa9b2-1b98-4926-b8be-e7b19ff76c38",
                     "ioValues": [],
@@ -2173,7 +2173,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick 2",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.3072289156626506,
                     "uniqueID": "35d7f975-40c9-4dc8-a3e5-3a8c6d30962b",
                     "ioValues": [],
@@ -2386,7 +2386,7 @@
                         {
                             "atomType": "Input",
                             "name": "bolt diameter",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.5240963855421688,
                             "uniqueID": "3b8f87b2-cc21-4ac8-be7a-63e1f3db7353",
                             "ioValues": [],
@@ -2396,7 +2396,7 @@
                         {
                             "atomType": "Input",
                             "name": "length",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.6355421686746988,
                             "uniqueID": "47ca9112-d0cd-45f4-a5c5-21040e60dde0",
                             "ioValues": [],
@@ -2406,7 +2406,7 @@
                         {
                             "atomType": "Input",
                             "name": "tolerance",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.7590361445783133,
                             "uniqueID": "89403fee-5478-4085-94fb-2ec25242f2f2",
                             "ioValues": [],
@@ -3062,7 +3062,7 @@
                 {
                     "atomType": "Input",
                     "name": "clamp width",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.5,
                     "uniqueID": "163e02a5-c84e-4e31-ae9b-7dade8b25b04",
                     "ioValues": [],
@@ -3157,7 +3157,7 @@
                         {
                             "atomType": "Input",
                             "name": "pry thick 1",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.6837349397590361,
                             "uniqueID": "d93397d6-a5b5-4378-b5ab-fbb9101eaaf2",
                             "ioValues": [],
@@ -3166,7 +3166,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick 2",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.3072289156626506,
                             "uniqueID": "fbfdfc4c-3bff-41ed-873f-0cc4c908320d",
                             "ioValues": [],
@@ -3175,7 +3175,7 @@
                         {
                             "atomType": "Input",
                             "name": "clamp width",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.5,
                             "uniqueID": "cfe57eea-6f50-4a55-a24d-3bffdb09a628",
                             "ioValues": [],
@@ -3221,7 +3221,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "bolt diameter",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.5240963855421688,
                                     "uniqueID": "18b2b650-d575-4dae-981e-6dbccc5a880f",
                                     "ioValues": [],
@@ -3231,7 +3231,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "length",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.6355421686746988,
                                     "uniqueID": "66497a95-dfd9-46d7-9f90-e611ccd63269",
                                     "ioValues": [],
@@ -3241,7 +3241,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "tolerance",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.7590361445783133,
                                     "uniqueID": "4b70529b-9ddf-4ebd-9c4b-197347590f2b",
                                     "ioValues": [],
@@ -3816,7 +3816,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "diameter",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.2680722891566265,
                                     "uniqueID": "3c50d043-f262-494f-a05c-c607e5b850fe",
                                     "ioValues": [],
@@ -3826,7 +3826,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "length",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.39759036144578314,
                                     "uniqueID": "ac01d8fe-2148-4ff3-842a-871edd5314f6",
                                     "ioValues": [],
@@ -3836,7 +3836,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "x",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.5903614457831325,
                                     "uniqueID": "eabbe3de-a7ce-4002-a1f2-a16563dbc198",
                                     "ioValues": [],
@@ -3846,7 +3846,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "y",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.7409638554216867,
                                     "uniqueID": "f73e452d-35b4-4cd7-9527-08e5c69a3664",
                                     "ioValues": [],
@@ -4416,7 +4416,7 @@
                         {
                             "atomType": "Input",
                             "name": "pry thick 1",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.6837349397590361,
                             "uniqueID": "0cf82d2b-67c0-4316-935d-0a3957243016",
                             "ioValues": [],
@@ -4425,7 +4425,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick 2",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.3072289156626506,
                             "uniqueID": "5cd2159b-e963-451f-9a92-139c4a99a5ac",
                             "ioValues": [],
@@ -4434,7 +4434,7 @@
                         {
                             "atomType": "Input",
                             "name": "clamp width",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.5,
                             "uniqueID": "62cf5a2e-474c-4cac-8b0e-551454ca13eb",
                             "ioValues": [],
@@ -4484,7 +4484,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "diameter",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.2680722891566265,
                                     "uniqueID": "8436e522-ddf4-43ba-8786-508f82d3fcda",
                                     "ioValues": [],
@@ -4494,7 +4494,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "length",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.39759036144578314,
                                     "uniqueID": "01365fd7-c0d2-4b66-9a99-58a2feb309e8",
                                     "ioValues": [],
@@ -4504,7 +4504,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "x",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.5903614457831325,
                                     "uniqueID": "1dcb6b63-b8cf-47d0-8312-8c5c299f0c4e",
                                     "ioValues": [],
@@ -4514,7 +4514,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "y",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.7409638554216867,
                                     "uniqueID": "0433f47a-ace4-4f19-944f-b32c96b49717",
                                     "ioValues": [],
@@ -5200,7 +5200,7 @@
         {
             "atomType": "Input",
             "name": "ply thick",
-            "x": 0.0231,
+            "x": 0.025384615384615384,
             "y": 0.4879518072289156,
             "uniqueID": "fcd98d64-883b-4ae7-ad39-560fd66ab661",
             "ioValues": [],
@@ -5239,7 +5239,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.4909638554216868,
                     "uniqueID": "69b8095d-8e75-4050-862c-a781a6e5b53b",
                     "ioValues": [],
@@ -5285,7 +5285,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.6897590361445783,
                             "uniqueID": "dcfe34cc-d8f9-401c-9642-96555857c59c",
                             "ioValues": [],
@@ -5294,7 +5294,7 @@
                         {
                             "atomType": "Input",
                             "name": "Sidep w",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.32228915662650603,
                             "uniqueID": "4c98c08e-9694-468d-aeba-d5ce8e080ef3",
                             "ioValues": [],
@@ -5304,7 +5304,7 @@
                         {
                             "atomType": "Input",
                             "name": "Sidep len",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.45481927710843373,
                             "uniqueID": "e911face-0fce-4415-82ee-8b528c9c6f52",
                             "ioValues": [],
@@ -5387,7 +5387,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Width",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.2900232018561485,
                                     "uniqueID": "79e78ffa-b986-4107-a5aa-7b45d56b6002",
                                     "ioValues": [],
@@ -5397,7 +5397,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Height",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.44083526682134566,
                                     "uniqueID": "6b4cad09-8d6e-4379-8cb2-2d46673a6a52",
                                     "ioValues": [],
@@ -5407,7 +5407,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Radius",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.6334106728538283,
                                     "uniqueID": "e14531c0-6535-48aa-9997-225178047f59",
                                     "ioValues": [],
@@ -6247,7 +6247,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.4909638554216868,
                             "uniqueID": "edd8d71e-1bd1-4883-9b94-33ad35dc3796",
                             "ioValues": [],
@@ -6297,7 +6297,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "diameter",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.2680722891566265,
                                     "uniqueID": "def8cfcb-65bf-483f-a420-04300a1a33fa",
                                     "ioValues": [],
@@ -6307,7 +6307,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "length",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.39759036144578314,
                                     "uniqueID": "08c61915-abe6-48af-afa8-22ca011e70f2",
                                     "ioValues": [],
@@ -6317,7 +6317,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "x",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.5903614457831325,
                                     "uniqueID": "e252330f-5c63-49bc-935c-d6d51cff0ea5",
                                     "ioValues": [],
@@ -6327,7 +6327,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "y",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.7409638554216867,
                                     "uniqueID": "53d3ad65-fc81-4c44-af0e-f76b5d6ed3eb",
                                     "ioValues": [],
@@ -6810,7 +6810,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.4909638554216868,
                             "uniqueID": "8bd65223-41b6-490a-856e-e2c6a8ca16db",
                             "ioValues": [],
@@ -6860,7 +6860,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "diameter",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.2680722891566265,
                                     "uniqueID": "7f5d6c7a-2d86-4ad2-833b-9d900e805425",
                                     "ioValues": [],
@@ -6870,7 +6870,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "length",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.39759036144578314,
                                     "uniqueID": "a2c0e32d-346c-40cd-b9f5-f4f0dfdf3138",
                                     "ioValues": [],
@@ -6880,7 +6880,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "x",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.5903614457831325,
                                     "uniqueID": "af29ae3e-a1ed-4a94-b44c-c0b476da7acb",
                                     "ioValues": [],
@@ -6890,7 +6890,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "y",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.7409638554216867,
                                     "uniqueID": "2bff3b85-39f6-4b3e-adfe-1e586be8872b",
                                     "ioValues": [],
@@ -7282,7 +7282,7 @@
                         {
                             "atomType": "Input",
                             "name": "diameter",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.2680722891566265,
                             "uniqueID": "0bcdb197-1f8f-437e-bc05-497c0ce69536",
                             "ioValues": [],
@@ -7292,7 +7292,7 @@
                         {
                             "atomType": "Input",
                             "name": "length",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.39759036144578314,
                             "uniqueID": "91fc1614-fd3d-4462-84d1-8e6fb76f9687",
                             "ioValues": [],
@@ -7302,7 +7302,7 @@
                         {
                             "atomType": "Input",
                             "name": "x",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.5903614457831325,
                             "uniqueID": "7f23d667-1b91-40a3-af31-5965aa64981d",
                             "ioValues": [],
@@ -7312,7 +7312,7 @@
                         {
                             "atomType": "Input",
                             "name": "y",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.7409638554216867,
                             "uniqueID": "00ff347d-5f1e-4d45-8351-44d25df55e3d",
                             "ioValues": [],
@@ -7792,8 +7792,8 @@
         {
             "atomType": "Molecule",
             "name": "Base",
-            "x": 0.073,
-            "y": 0.23795180722891565,
+            "x": 0.07219251336898395,
+            "y": 0.2469879518072289,
             "uniqueID": "ba41ab37-6d1c-4e6b-a9b4-27c9a2c1b803",
             "ioValues": [
                 {
@@ -7821,7 +7821,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.4909638554216868,
                     "uniqueID": "6f4744ba-6639-42f0-a9f1-ddbb3db7b24c",
                     "ioValues": [],
@@ -7863,7 +7863,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.677710843373494,
                             "uniqueID": "25145f9b-a8c8-46f7-afec-3cd0e76f4e4f",
                             "ioValues": [],
@@ -7909,7 +7909,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Width",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.2900232018561485,
                                     "uniqueID": "00649b0c-0414-429c-a339-ba5131282a32",
                                     "ioValues": [],
@@ -7919,7 +7919,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Height",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.44083526682134566,
                                     "uniqueID": "f3c80614-0def-4ce0-a7b8-037eccb87b4f",
                                     "ioValues": [],
@@ -7929,7 +7929,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Radius",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.6334106728538283,
                                     "uniqueID": "ba45204f-6180-43d7-88ff-ed4c195b2f34",
                                     "ioValues": [],
@@ -8476,7 +8476,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "bolt diameter",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.286144578313253,
                                     "uniqueID": "7ed9a696-9ce2-4992-9e3d-8fb9ebca52af",
                                     "ioValues": [],
@@ -8486,7 +8486,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "length",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.6355421686746988,
                                     "uniqueID": "2e518223-0924-471b-b833-f44615ed2dc5",
                                     "ioValues": [],
@@ -8496,7 +8496,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "tolerance",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.7590361445783133,
                                     "uniqueID": "9c905039-cac0-4ba2-9664-5a8727e982e9",
                                     "ioValues": [],
@@ -8740,7 +8740,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Bolt head width",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.42168674698795183,
                                     "uniqueID": "8cf63e7f-2a8f-4d5f-85fe-e4b139ac9e11",
                                     "ioValues": [],
@@ -8750,7 +8750,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "bolt head height",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.9216867469879518,
                                     "uniqueID": "19f89007-b842-4302-8c6f-7c30e0b9f5bf",
                                     "ioValues": [],
@@ -8995,7 +8995,7 @@
                         {
                             "atomType": "Input",
                             "name": "basepart width",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.5,
                             "uniqueID": "a477a8f9-254c-49ad-9003-2cb5f85d65f4",
                             "ioValues": [],
@@ -9102,7 +9102,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "diameter",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.2680722891566265,
                                     "uniqueID": "19d9900e-6aea-4293-b380-cf8cbcffa131",
                                     "ioValues": [],
@@ -9112,7 +9112,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "length",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.39759036144578314,
                                     "uniqueID": "4f7180d1-3190-43ac-b0c9-ae55d36c6df3",
                                     "ioValues": [],
@@ -9122,7 +9122,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "x",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.5903614457831325,
                                     "uniqueID": "41a9ffb2-4352-439e-9423-530c8cf67d58",
                                     "ioValues": [],
@@ -9132,7 +9132,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "y",
-                                    "x": 0.0231,
+                                    "x": 0.025384615384615384,
                                     "y": 0.7409638554216867,
                                     "uniqueID": "58b0be61-fc2a-4ada-8bf8-a83a4955a6f2",
                                     "ioValues": [],
@@ -9995,7 +9995,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.7259036144578314,
                     "uniqueID": "554ef1c9-e3ea-45f7-92d9-1c6bef9e5cd2",
                     "ioValues": [],
@@ -10022,7 +10022,7 @@
                 {
                     "atomType": "Input",
                     "name": "rail width",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.30120481927710846,
                     "uniqueID": "b746d4c2-a822-426f-b7d1-134276477978",
                     "ioValues": [],
@@ -10032,7 +10032,7 @@
                 {
                     "atomType": "Input",
                     "name": "rail length",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.5843373493975904,
                     "uniqueID": "22e2e313-bab7-42a8-b115-55516cb37b02",
                     "ioValues": [],
@@ -10170,7 +10170,7 @@
                 {
                     "atomType": "Input",
                     "name": "channel depth",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.5,
                     "uniqueID": "965644f7-ce22-483d-88a1-1d7fa2d6ae98",
                     "ioValues": [],
@@ -10236,7 +10236,7 @@
                         {
                             "atomType": "Input",
                             "name": "length",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.3704819277108434,
                             "uniqueID": "e0b46b0c-c8ab-44d8-ab04-80f6a89926cd",
                             "ioValues": [],
@@ -10246,7 +10246,7 @@
                         {
                             "atomType": "Input",
                             "name": "width",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.6204819277108434,
                             "uniqueID": "95d6f3c7-3936-4210-b9e5-517db208f4db",
                             "ioValues": [],
@@ -10256,7 +10256,7 @@
                         {
                             "atomType": "Input",
                             "name": "height",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.8463855421686747,
                             "uniqueID": "12a0a32a-e0b0-4431-bb74-9bf84ba7cac5",
                             "ioValues": [],
@@ -10266,7 +10266,7 @@
                         {
                             "atomType": "Input",
                             "name": "z",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.7409638554216867,
                             "uniqueID": "d28f1e0a-936e-4350-bb02-87fa1413e593",
                             "ioValues": [],
@@ -10830,7 +10830,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.7259036144578314,
                     "uniqueID": "5502cabb-53c0-4587-a635-d3dd5c413923",
                     "ioValues": [],
@@ -10857,7 +10857,7 @@
                 {
                     "atomType": "Input",
                     "name": "rail width",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.30120481927710846,
                     "uniqueID": "3f022b42-9be8-4941-9837-e122ac5e5344",
                     "ioValues": [],
@@ -10867,7 +10867,7 @@
                 {
                     "atomType": "Input",
                     "name": "rail length",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.5843373493975904,
                     "uniqueID": "7c73d42a-2c6b-45b7-bc1d-e348d3054199",
                     "ioValues": [],
@@ -11005,7 +11005,7 @@
                 {
                     "atomType": "Input",
                     "name": "channel depth",
-                    "x": 0.0231,
+                    "x": 0.025384615384615384,
                     "y": 0.5,
                     "uniqueID": "c06e2e5b-ebdc-416e-9ba3-e29170e13e8d",
                     "ioValues": [],
@@ -11071,7 +11071,7 @@
                         {
                             "atomType": "Input",
                             "name": "length",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.3704819277108434,
                             "uniqueID": "e0b46b0c-c8ab-44d8-ab04-80f6a89926cd",
                             "ioValues": [],
@@ -11081,7 +11081,7 @@
                         {
                             "atomType": "Input",
                             "name": "width",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.6204819277108434,
                             "uniqueID": "95d6f3c7-3936-4210-b9e5-517db208f4db",
                             "ioValues": [],
@@ -11091,7 +11091,7 @@
                         {
                             "atomType": "Input",
                             "name": "height",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.8463855421686747,
                             "uniqueID": "12a0a32a-e0b0-4431-bb74-9bf84ba7cac5",
                             "ioValues": [],
@@ -11101,7 +11101,7 @@
                         {
                             "atomType": "Input",
                             "name": "z",
-                            "x": 0.0231,
+                            "x": 0.025384615384615384,
                             "y": 0.7409638554216867,
                             "uniqueID": "d28f1e0a-936e-4350-bb02-87fa1413e593",
                             "ioValues": [],
@@ -12304,6 +12304,6 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
